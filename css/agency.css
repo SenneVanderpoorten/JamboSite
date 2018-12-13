@@ -71,12 +71,11 @@ section h3.section-subheading {
 }
 
 .btn-xl {
-    
     font-size: 18px;
     padding: 20px 40px;
 }
+
 .btn-primary {
-    
     border-color: white;
     color: white;
 }
@@ -189,7 +188,7 @@ img::-moz-selection {
 header.masthead {
     align-content: flex-end;
     color: black;
-    background-image: url("../img/header-bgt.jpg");
+    background-image: url("../img/header-bgt.jpg") !important;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
