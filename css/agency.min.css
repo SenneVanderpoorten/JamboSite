@@ -21,6 +21,10 @@ a:hover {
 .text-primary {
 	color: #558b2f !important;
 }
+
+.flags {
+	justify-content: center;
+}
 h1,
 h2,
 h3,
@@ -175,10 +179,12 @@ header.masthead {
 	background-position: center center;
 	background-size: cover;
 }
+
 header.masthead .intro-text {
 	padding-top: 150px;
 	padding-bottom: 25px;
 }
+
 header.masthead .intro-text .intro-lead-in {
 	font-size: 20px;
 	line-height: 20px;
@@ -432,7 +438,7 @@ header.masthead .intro-text .intro-heading {
 	color: #fff;
 	border: 7px solid #e9ecef;
 	border-radius: 100%;
-	background-color: #558b2f;
+	background: transparent;
 }
 .timeline > li .timeline-image h4 {
 	font-size: 10px;

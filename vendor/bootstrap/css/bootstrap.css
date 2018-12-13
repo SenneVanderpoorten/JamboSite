@@ -549,10 +549,10 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 @media (min-width: 576px) {
@@ -575,7 +575,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1170px;
   }
 }
 
