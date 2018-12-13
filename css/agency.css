@@ -9,9 +9,6 @@ body {
     font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-
-
-
 p {
     line-height: 1.75;
 }
@@ -76,7 +73,7 @@ section h3.section-subheading {
 .btn-primary {
     background-color: white;
     border-color: white;
-    color:white;
+    color: white;
 }
 
 .btn-primary:active,
@@ -185,9 +182,9 @@ img::-moz-selection {
 }
 
 header.masthead {
-    text-align: center;
+    align-content: flex-end;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/header-bgt.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
