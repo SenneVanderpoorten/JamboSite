@@ -215,7 +215,7 @@ img::-moz-selection {
 header.masthead {
 	align-content: flex-end;
 	color: black;
-	background-image: url("../img/header-bgt.jpg") !important;
+	background-image: url("../img/background/background-img2.JPG") !important;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;

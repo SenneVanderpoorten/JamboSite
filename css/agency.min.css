@@ -70,6 +70,7 @@ section h3.section-subheading {
 	padding: 20px 40px;
 	color: #fff;
 	background: none;
+	color
 }
 
 .btn-language-selector:active,
@@ -185,7 +186,7 @@ img::-moz-selection {
 header.masthead {
 	text-align: left;
 	color: #fff;
-	background-image: url(../img/header-bg.jpg);
+	background-image: url(../img/background/background-img2.JPG);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
