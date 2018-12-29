@@ -475,6 +475,7 @@ header.masthead .intro-text .intro-heading {
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
 	margin-bottom: 0;
+	text-align: justify;
 }
 @media (min-width: 768px) {
 	.timeline:before {
