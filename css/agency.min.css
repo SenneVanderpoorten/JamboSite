@@ -65,6 +65,18 @@ section h3.section-subheading {
 		"Segoe UI Symbol", "Noto Color Emoji";
 	font-weight: 700;
 }
+.btn-language-selector {
+	font-size: 18px;
+	padding: 20px 40px;
+	color: #fff;
+	background: none;
+}
+
+.btn-language-selector:active,
+.btn-language-selector:focus,
+.btn-language-selector:hover {
+	color: #558b2f;
+}
 .btn-xl {
 	font-size: 18px;
 	padding: 20px 40px;
@@ -86,11 +98,11 @@ section h3.section-subheading {
 	box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 ::-moz-selection {
-	background: #558b2f;
+	background: #799267;
 	text-shadow: none;
 }
 ::selection {
-	background: #558b2f;
+	background: #a1adb4;
 	text-shadow: none;
 }
 img::-moz-selection {

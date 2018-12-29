@@ -78,6 +78,19 @@ section h3.section-subheading {
 	font-weight: 700;
 }
 
+.btn-language-selector {
+	font-size: 18px;
+	padding: 20px 40px;
+	color: #fff;
+	background: none;
+}
+
+.btn-language-selector:active,
+.btn-language-selector:focus,
+.btn-language-selector:hover {
+	color: #558b2f;
+}
+
 .btn-xl {
 	font-size: 18px;
 	padding: 20px 40px;
