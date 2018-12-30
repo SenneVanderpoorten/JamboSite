@@ -24,6 +24,7 @@ a:hover {
 
 .flags {
 	justify-content: center;
+	z-index: 1;
 }
 h1,
 h2,
@@ -199,6 +200,7 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
 	font-size: 20px;
+	z-index: 1;
 	line-height: 20px;
 	margin-bottom: 5px;
 	font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -207,8 +209,10 @@ header.masthead .intro-text .intro-lead-in {
 }
 header.masthead .intro-text .intro-heading {
 	font-size: 30px;
+	z-index: 1;
 	font-weight: 800;
 	line-height: 30px;
+	
 	margin-bottom: 5px;
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 		"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -222,6 +226,7 @@ header.masthead .intro-text .intro-heading {
 	header.masthead .intro-text .intro-lead-in {
 		font-size: 20px;
 		letter-spacing: 2px;
+		z-index: 1;
 		line-height: 30px;
 		font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
 			Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -229,6 +234,7 @@ header.masthead .intro-text .intro-heading {
 	}
 	header.masthead .intro-text .intro-heading {
 		font-size: 50px;
+		z-index: 1;
 		font-weight: 800;
 		line-height: 50px;
 		margin-bottom: 5px;
@@ -679,10 +685,10 @@ ul.social-buttons li a:hover {
 .cb-slideshow,
 .cb-slideshow:after { 
     width: 100%;
-    height: 100%;
+	height: 100%;
+	z-index: -1;
     top: 0px;
     left: 0px;
-    z-index: 0; 
 }
 .cb-slideshow:after { 
     content: '';
@@ -699,11 +705,9 @@ ul.social-buttons li a:hover {
     background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
-    z-index: 0;
     animation: imageAnimation 36s linear infinite 0s; 
 }
 .cb-slideshow li div { 
-    z-index: 1000;
     position: absolute;
     bottom: 30px;
     left: 0px;
