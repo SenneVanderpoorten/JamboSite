@@ -3,14 +3,13 @@
 .img-gallery{
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
 }
 
 .img-gallery .lightbox{
     max-width: 30%;
     margin: 5px;
-
 }
 
 .img-gallery .lightbox img{
