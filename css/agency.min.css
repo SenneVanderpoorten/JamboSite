@@ -186,7 +186,7 @@ img::-moz-selection {
 header.masthead {
 	text-align: left;
 	color: #fff;
-	background-image: url(../img/background/background-img2.JPG);
+	background-image: url(../img/background/background-img6.JPG);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -359,7 +359,7 @@ header.masthead .intro-text .intro-heading {
 	margin-bottom: 30px;
 }
 .portfolio-modal .modal-content img {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 .portfolio-modal .modal-content button {
 	cursor: pointer;
