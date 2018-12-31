@@ -27,6 +27,14 @@
     <link href="css/agency.min.css" rel="stylesheet"> </head>
 
 <body id="page-top">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
@@ -242,6 +250,29 @@
                     <h2 class="section-heading text-uppercase">NEWS</h2>
                     <h3 class="section-subheading text-muted">Everything You'll need to know will be uploaded to this page.</h3> </div>
             </div>
+            <div class="card-deck">
+                    <div class="card">
+                      <img src="img/placeholder_Card.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Facebook</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                      <img src="img/placeholder_Card.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Twitter</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="img/placeholder_Card.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Instagram</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                    </div>
+                  </div>
         </div>
     </section>
     <!-- Contact -->
@@ -255,7 +286,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <form id="contactForm novalidate="novalidate" action="https://formspree.io/info@jamborette.be" method="POST" />
+                    <!--<form id="contactForm" name="sentMessage" novalidate="novalidate">-->
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
