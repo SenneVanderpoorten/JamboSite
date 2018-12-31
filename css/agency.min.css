@@ -24,6 +24,7 @@ a:hover {
 
 .flags {
 	justify-content: center;
+	z-index: 1;
 }
 h1,
 h2,
@@ -70,6 +71,7 @@ section h3.section-subheading {
 	padding: 20px 40px;
 	color: #fff;
 	background: none;
+	color
 }
 
 .btn-language-selector:active,
@@ -184,8 +186,6 @@ img::-moz-selection {
 }
 header.masthead {
 	text-align: left;
-	color: #fff;
-	background-image: url(../img/background/background-img6.JPG);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
@@ -198,7 +198,9 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-	font-size: 20px;
+	font-size: 30px;
+	color: #fff;
+	z-index: 1;
 	line-height: 20px;
 	margin-bottom: 5px;
 	font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -206,7 +208,9 @@ header.masthead .intro-text .intro-lead-in {
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .intro-text .intro-heading {
-	font-size: 30px;
+	font-size: 50px;
+	color: #fff;
+	z-index: 1;
 	font-weight: 800;
 	line-height: 30px;
 	margin-bottom: 5px;
@@ -220,8 +224,10 @@ header.masthead .intro-text .intro-heading {
 		padding-bottom: 300px;
 	}
 	header.masthead .intro-text .intro-lead-in {
-		font-size: 20px;
+		font-size: 30px;
 		letter-spacing: 2px;
+		color: #fff;
+		z-index: 1;
 		line-height: 30px;
 		font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
 			Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -229,6 +235,8 @@ header.masthead .intro-text .intro-heading {
 	}
 	header.masthead .intro-text .intro-heading {
 		font-size: 50px;
+		z-index: 1;
+		color: #fff;
 		font-weight: 800;
 		line-height: 50px;
 		margin-bottom: 5px;
@@ -358,7 +366,7 @@ header.masthead .intro-text .intro-heading {
 	margin-bottom: 30px;
 }
 .portfolio-modal .modal-content img {
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 }
 .portfolio-modal .modal-content button {
 	cursor: pointer;
@@ -673,4 +681,109 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
 	background-color: #558b2f;
+}
+
+
+.cb-slideshow,
+.cb-slideshow:after { 
+    width: 100%;
+	height: 100%;
+	z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+.cb-slideshow:after { 
+    content: '';
+    background: transparent url(../images/pattern.png) repeat top left; 
+}
+.cb-slideshow li span { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    animation: imageAnimation 36s linear infinite 0s; 
+}
+.cb-slideshow li div { 
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    animation: titleAnimation 36s linear infinite 0s; 
+}
+.cb-slideshow li div h3 { 
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 240px;
+    padding: 0;
+    line-height: 200px; 
+}
+.cb-slideshow li:nth-child(1) span { 
+    background-image: url(../img/background/background-img.JPG) 
+}
+.cb-slideshow li:nth-child(2) span { 
+    background-image: url(../img/background/background-img3.JPG);
+    animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(3) span { 
+    background-image: url(../img/background/background-img6.JPG);
+    animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(../img/background/background-img2.JPG);
+    animation-delay: 18s; 
+}
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(../img/background/background-img5.JPG);
+    animation-delay: 24s; 
+}
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(../img/background/background-img1.JPG);
+    animation-delay: 30s; 
+}
+
+.cb-slideshow li:nth-child(2) div { 
+    animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(3) div { 
+    animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(4) div { 
+    animation-delay: 18s; 
+}
+.cb-slideshow li:nth-child(5) div { 
+    animation-delay: 24s; 
+}
+.cb-slideshow li:nth-child(6) div { 
+    animation-delay: 30s; 
+}
+@keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    8% { opacity: 1; animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+@keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+.no-cssanimations .cb-slideshow li span{
+	opacity: 1;
+}
+@media screen and (max-width: 1140px) { 
+    .cb-slideshow li div h3 { font-size: 140px }
+}
+@media screen and (max-width: 600px) { 
+    .cb-slideshow li div h3 { font-size: 80px }
 }
