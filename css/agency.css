@@ -10,6 +10,10 @@ body {
 		Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.table {
+   margin: auto;
+   width: 50% !important; 
+}
 
 .flags {
 	text-align: center;
