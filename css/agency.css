@@ -219,7 +219,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-	font-size: 15px;
+	font-size: 12.5px;
 	color: #fff;
 	padding-bottom: 25px;
 	z-index: 1;
@@ -230,7 +230,7 @@ header.masthead .intro-text .intro-lead-in {
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .intro-text .intro-heading {
-	font-size: 50px;
+	font-size: 35px;
 	color: #fff;
 	z-index: 1;
 	font-weight: 800;
@@ -254,12 +254,12 @@ header.masthead .intro-text .intro-heading {
 			"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	}
 	header.masthead .intro-text .intro-heading {
-		font-size: 30px;
+		font-size: 70px;
 		z-index: 1;
 		color: #fff;
-		font-weight: 800;
+		font-weight: 750;
 		line-height: 50px;
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 		font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI",
 			Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
 			"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
