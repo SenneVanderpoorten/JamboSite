@@ -675,6 +675,7 @@ footer span.copyright {
 footer ul.quicklinks {
 	font-size: 90%;
 	line-height: 40px;
+	color: #558b2f;
 	margin-bottom: 0;
 	text-transform: none;
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
