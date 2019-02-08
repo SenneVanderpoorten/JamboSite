@@ -63,8 +63,8 @@
 var btn = document.getElementsByClassName("btn-language-selector");
 btn.onclick() = function(){
   alert('Elaba');
-}
+};
 
 $(document).ready(function(){
 	$('.masthead').height($(window).height());
-   })
+   });
