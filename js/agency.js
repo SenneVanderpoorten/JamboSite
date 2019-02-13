@@ -54,16 +54,8 @@
 	$(".portfolio-modal").on("hidden.bs.modal", function(e) {
 		$(".navbar").removeClass("d-none");
   });
-  
-  $(".btn-language").click(function alertLanguageMessage(){
-    alert('Elaba loeken')
-  })
-})(jQuery); // End of use strict
 
-var btn = document.getElementsByClassName("btn-language-selector");
-btn.onclick() = function(){
-  alert('Elaba');
-};
+})(jQuery); // End of use strict
 
 $(document).ready(function(){
 	$('.masthead').height($(window).height());
