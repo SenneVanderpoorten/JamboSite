@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/languages/de/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/es/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/es/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/nl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/nl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fr/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,24 +30,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/de/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="94" column="14" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="94" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/languages/nl/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="638" column="18" lean-forward="true" selection-start-line="638" selection-start-column="18" selection-end-line="638" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/languages/it/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-102">
@@ -55,11 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/languages/fr/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+            <state relative-caret-position="-379">
+              <caret line="581" column="99" selection-start-line="581" selection-start-column="99" selection-end-line="581" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/languages/de/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -85,12 +77,12 @@
         <option value="$PROJECT_DIR$/css/agency.min.css" />
         <option value="$PROJECT_DIR$/languages/en/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/languages/de/index.html" />
-        <option value="$PROJECT_DIR$/languages/fr/index.html" />
         <option value="$PROJECT_DIR$/languages/it/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/languages/es/index.html" />
         <option value="$PROJECT_DIR$/languages/nl/index.html" />
+        <option value="$PROJECT_DIR$/languages/de/index.html" />
+        <option value="$PROJECT_DIR$/languages/es/index.html" />
+        <option value="$PROJECT_DIR$/languages/fr/index.html" />
       </list>
     </option>
   </component>
@@ -173,12 +165,6 @@
               <item name="languages" type="462c0819:PsiDirectoryNode" />
               <item name="it" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-              <item name="nl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -239,12 +225,12 @@
       <workItem from="1550060503145" duration="167000" />
       <workItem from="1550069397676" duration="344000" />
       <workItem from="1550230937863" duration="210000" />
-      <workItem from="1551949250649" duration="5209000" />
+      <workItem from="1551949250649" duration="6511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21834000" />
+    <option name="totallyTimeSpent" value="23136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -431,10 +417,24 @@
     <entry file="file://$PROJECT_DIR$/gallery/gallery.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/fr/index.html">
+    <entry file="file://$PROJECT_DIR$/languages/it/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="-102">
           <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/nl/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="638" column="18" lean-forward="true" selection-start-line="638" selection-start-column="18" selection-end-line="638" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/es/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -448,31 +448,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/it/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/languages/es/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9486">
-          <caret line="561" column="78" selection-start-line="561" selection-start-column="78" selection-end-line="561" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/languages/de/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="94" column="14" lean-forward="true" selection-start-line="79" selection-start-column="8" selection-end-line="94" selection-end-column="14" />
+        <state relative-caret-position="170">
+          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/nl/index.html">
+    <entry file="file://$PROJECT_DIR$/languages/fr/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="638" column="18" lean-forward="true" selection-start-line="638" selection-start-column="18" selection-end-line="638" selection-end-column="18" />
+        <state relative-caret-position="-379">
+          <caret line="581" column="99" selection-start-line="581" selection-start-column="99" selection-end-line="581" selection-end-column="99" />
         </state>
       </provider>
     </entry>
