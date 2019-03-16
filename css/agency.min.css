@@ -185,7 +185,7 @@ header.homepage-container {
 }
 header.masthead {
 	height: 100%;
-	background-image: url("../img/background/background-img6.JPG") !important;
+	background-image: url("../img/background/background-img6.png") !important;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -702,136 +702,6 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
 	background-color: #558b2f;
-}
-
-.cb-slideshow,
-.cb-slideshow:after {
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	top: 0px;
-	left: 0px;
-}
-.cb-slideshow:after {
-	content: "";
-	background: transparent url(../images/pattern.png) repeat top left;
-}
-.cb-slideshow li span {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	color: transparent;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: none;
-	opacity: 0;
-	animation: imageAnimation 36s linear infinite 0s;
-}
-.cb-slideshow li div {
-	position: absolute;
-	bottom: 30px;
-	left: 0px;
-	width: 100%;
-	text-align: center;
-	opacity: 0;
-	color: #fff;
-	animation: titleAnimation 36s linear infinite 0s;
-}
-.cb-slideshow li div h3 {
-	font-family: "BebasNeueRegular", "Arial Narrow", Arial, sans-serif;
-	font-size: 240px;
-	padding: 0;
-	line-height: 200px;
-}
-.cb-slideshow li:nth-child(1) span {
-	background-image: url(../img/background/background-img.JPG);
-}
-.cb-slideshow li:nth-child(2) span {
-	background-image: url(../img/background/background-img3.JPG);
-	animation-delay: 6s;
-}
-.cb-slideshow li:nth-child(3) span {
-	background-image: url(../img/background/background-img6.JPG);
-	animation-delay: 12s;
-}
-.cb-slideshow li:nth-child(4) span {
-	background-image: url(../img/background/background-img2.JPG);
-	animation-delay: 18s;
-}
-.cb-slideshow li:nth-child(5) span {
-	background-image: url(../img/background/background-img5.JPG);
-	animation-delay: 24s;
-}
-.cb-slideshow li:nth-child(6) span {
-	background-image: url(../img/background/background-img1.JPG);
-	animation-delay: 30s;
-}
-
-.cb-slideshow li:nth-child(2) div {
-	animation-delay: 6s;
-}
-.cb-slideshow li:nth-child(3) div {
-	animation-delay: 12s;
-}
-.cb-slideshow li:nth-child(4) div {
-	animation-delay: 18s;
-}
-.cb-slideshow li:nth-child(5) div {
-	animation-delay: 24s;
-}
-.cb-slideshow li:nth-child(6) div {
-	animation-delay: 30s;
-}
-@keyframes imageAnimation {
-	0% {
-		opacity: 0;
-		animation-timing-function: ease-in;
-	}
-	8% {
-		opacity: 1;
-		animation-timing-function: ease-out;
-	}
-	17% {
-		opacity: 1;
-	}
-	25% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-@keyframes titleAnimation {
-	0% {
-		opacity: 0;
-	}
-	8% {
-		opacity: 1;
-	}
-	17% {
-		opacity: 1;
-	}
-	19% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-.no-cssanimations .cb-slideshow li span {
-	opacity: 1;
-}
-@media screen and (max-width: 1140px) {
-	.cb-slideshow li div h3 {
-		font-size: 140px;
-	}
-}
-@media screen and (max-width: 600px) {
-	.cb-slideshow li div h3 {
-		font-size: 80px;
-	}
 }
 
 .card {

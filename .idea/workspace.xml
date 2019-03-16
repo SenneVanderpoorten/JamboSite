@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/de/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/es/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/es/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/fr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fr/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/it/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/it/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/nl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/nl/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/agency.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background/background-img.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background/background-img1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background/background-img2.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background/background-img3.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background/background-img4.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background/background-img5.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background/background-img6.JPG" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,59 +24,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/it/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/nl/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/fr/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/languages/es/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/languages/de/index.html">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/agency.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12835">
+              <caret line="755" column="63" selection-start-line="755" selection-start-column="63" selection-end-line="755" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/agency.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <caret line="704" column="1" selection-start-line="704" selection-start-column="1" selection-end-line="704" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -95,7 +69,6 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/agency.js" />
-        <option value="$PROJECT_DIR$/css/agency.min.css" />
         <option value="$PROJECT_DIR$/languages/en/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -104,6 +77,8 @@
         <option value="$PROJECT_DIR$/languages/fr/index.html" />
         <option value="$PROJECT_DIR$/languages/es/index.html" />
         <option value="$PROJECT_DIR$/languages/de/index.html" />
+        <option value="$PROJECT_DIR$/css/agency.css" />
+        <option value="$PROJECT_DIR$/css/agency.min.css" />
       </list>
     </option>
   </component>
@@ -124,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +121,17 @@
               <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
               <item name="gallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="background" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
@@ -187,6 +172,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,11 +231,13 @@
       <workItem from="1551949250649" duration="8780000" />
       <workItem from="1552466022381" duration="1102000" />
       <workItem from="1552557023876" duration="662000" />
+      <workItem from="1552754965578" duration="153000" />
+      <workItem from="1552763375607" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27169000" />
+    <option name="totallyTimeSpent" value="27416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -259,7 +247,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -388,32 +376,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/en/index.html" />
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="187" column="57" selection-start-line="187" selection-start-column="57" selection-end-line="187" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="187" column="57" selection-start-line="187" selection-start-column="57" selection-end-line="187" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -438,11 +405,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
+        <state relative-caret-position="3417">
           <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12835">
+          <caret line="755" column="63" selection-start-line="755" selection-start-column="63" selection-end-line="755" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/agency.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="704" column="1" selection-start-line="704" selection-start-column="1" selection-end-line="704" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -478,6 +459,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
         </state>
       </provider>
     </entry>
