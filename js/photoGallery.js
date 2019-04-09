@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.fn.modal.Constructor.prototype.enforceFocus = function () {};  
+    $.fn.modal.Constructor.prototype._enforceFocus = function () {};  
     let dir;
     let thumbdir;
 
