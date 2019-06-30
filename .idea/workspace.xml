@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/news.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/news.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/agency.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background/background-img.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background/background-img1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background/background-img2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background/background-img3.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background/background-img4.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background/background-img5.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background/background-img6.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,34 +18,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery/thumbnail/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery/images/2010photo.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/photoGallery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/news.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+        <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="420">
+              <caret line="582" selection-start-line="582" selection-end-line="586" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/agency.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12835">
-              <caret line="755" column="63" selection-start-line="755" selection-start-column="63" selection-end-line="755" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/agency.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="704" column="1" selection-start-line="704" selection-start-column="1" selection-end-line="704" selection-end-column="1" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/gallery/thumbnail/thumbnail-gallery.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -59,6 +85,9 @@
       <find>language</find>
       <find>stylesheet</find>
       <find>index</find>
+      <find>list-group</find>
+      <find>dropdown-toggle</find>
+      <find>container</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,7 +100,6 @@
         <option value="$PROJECT_DIR$/js/agency.js" />
         <option value="$PROJECT_DIR$/languages/en/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/languages/it/index.html" />
         <option value="$PROJECT_DIR$/languages/nl/index.html" />
         <option value="$PROJECT_DIR$/languages/fr/index.html" />
@@ -79,6 +107,10 @@
         <option value="$PROJECT_DIR$/languages/de/index.html" />
         <option value="$PROJECT_DIR$/css/agency.css" />
         <option value="$PROJECT_DIR$/css/agency.min.css" />
+        <option value="$PROJECT_DIR$/js/photoGallery.js" />
+        <option value="$PROJECT_DIR$/js/news.js" />
+        <option value="$PROJECT_DIR$/news/tsconfig.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -99,83 +131,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="agency.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="gallery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="background" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-              <item name="es" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-              <item name="fr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-              <item name="it" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-              <item name="nl" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -184,16 +145,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\css" />
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\de" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\en" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\es" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\fr" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\it" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\css" />
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,16 +193,21 @@
       <workItem from="1552466022381" duration="1102000" />
       <workItem from="1552557023876" duration="662000" />
       <workItem from="1552754965578" duration="153000" />
-      <workItem from="1552763375607" duration="94000" />
+      <workItem from="1552763375607" duration="7136000" />
+      <workItem from="1552822926994" duration="1308000" />
+      <workItem from="1552851894803" duration="2009000" />
+      <workItem from="1553093077040" duration="417000" />
+      <workItem from="1553100792901" duration="2103000" />
+      <workItem from="1553117401275" duration="1129000" />
+      <workItem from="1553159753010" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27416000" />
+    <option name="totallyTimeSpent" value="42028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16391276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -289,13 +255,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desktop.ini">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -400,33 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/gallery.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3417">
-          <caret line="204" column="20" selection-start-line="204" selection-start-column="20" selection-end-line="204" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12835">
-          <caret line="755" column="63" selection-start-line="755" selection-start-column="63" selection-end-line="755" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="704" column="1" selection-start-line="704" selection-start-column="1" selection-end-line="704" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/languages/it/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -455,17 +387,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/de/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="755" column="63" selection-start-line="755" selection-start-column="63" selection-end-line="755" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/agency.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="704" column="1" selection-start-line="704" selection-start-column="1" selection-end-line="704" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="543" column="91" selection-start-line="543" selection-start-column="91" selection-end-line="543" selection-end-column="91" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/news.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/gallery.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_startbootstrap-simple-sidebar-gh-pages (1).zip/startbootstrap-simple-sidebar-gh-pages/css/simple-sidebar.css" />
+    <entry file="file://$PROJECT_DIR$/languages/de/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/thumbnail/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/images/2010photo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/photoGallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/news.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery/thumbnail/thumbnail-gallery.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="582" selection-start-line="582" selection-end-line="586" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -81,7 +81,8 @@
             margin-right: auto;
             left: 0;
             right: 0;">
-            <a class="btn btn-language-selector" href="./index.html" hreflang="en"><img src="img/languages/engels.png" alt="Engels"><br/>English</a>
+            <a class="btn btn-language-selector" href="./index.html" hreflang="en">
+                <img src="img/languages/engels.png" alt="Engels"><br/>English</a>
             <a class="btn btn-language-selector" href="./languages/fr/index.html" hreflang="fr">
                 <img src="img/languages/france.png" alt="duits"><br/>Francais</a>
             <a class="btn btn-language-selector" href="./languages/es/index.html" hreflang="es">
@@ -532,35 +533,41 @@
 
 <!-- News -->
 <section class="bg-light" id="news">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="box-part text-center">
-                    <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
-                    <div class="title">
-                        <h4>Facebook</h4>
-                    </div>
-                    <a href="https://www.facebook.com/Jambo2020/" class="text-muted">Learn More</a>
-                </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">News</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-9 text-center">
+            <div class="container">
+                <table id="news-table" class="table table-sm table-hover " cellspacing="0">
+                    <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Media</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>joepie jamborette in de zomer van 2020</th>
+                        <td>datum</td>
+                        <td>gazet</td>
+                    </tr>
+                    <tr>
+                        <th>titel</th>
+                        <td>datum</td>
+                        <td>gazet</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="box-part text-center">
-                    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
-                    <div class="title">
-                        <h4>Twitter</h4>
-                    </div>
-                    <a href="#" class="text-muted">Learn More</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                <div class="box-part text-center">
-                    <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-                    <div class="title">
-                        <h4>Instagram</h4>
-                    </div>
-                    <a href="#" class="text-muted">Learn More</a>
-                </div>
-            </div>
+        </div>
+        <div class="col col-3 text-center">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJambo2020%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=260491704089334"
+                    width="340" height="750" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowTransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
 </section>
