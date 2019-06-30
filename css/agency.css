@@ -16,10 +16,10 @@ a {
 	color: white;
 }
 a:hover {
-	color: #558b2f;
+	color: #5a7058;
 }
 .text-primary {
-	color: #558b2f !important;
+	color: #5a7058 !important;
 }
 
 h1,
@@ -72,7 +72,7 @@ section h3.section-subheading {
 .btn-language-selector:active,
 .btn-language-selector:focus,
 .btn-language-selector:hover {
-	color: #558b2f;
+	color: #faab47;
 }
 .btn-xl {
 	font-size: 18px;
@@ -85,7 +85,7 @@ section h3.section-subheading {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-	background-color: #558b2f !important;
+	background-color: #5a7058 !important;
 	border-color: #558b2f !important;
 	color: #fff;
 }
@@ -111,18 +111,18 @@ img::selection {
 img::-moz-selection {
 	background: 0 0;
 }
-#mainNav {
-	background-color: #212529;
+#mainNav .navbar {
+	background-color: #0e1122;
 	margin-bottom: 50px;
 }
 #mainNav .navbar-toggler {
 	font-size: 12px;
 	right: 0;
-	padding: 13px;
+	padding: 10px;
 	text-transform: uppercase;
 	color: #fff;
 	border: 0;
-	background-color: #558b2f;
+	background-color: #faab47;
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 		"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 		"Segoe UI Symbol", "Noto Color Emoji";
@@ -137,7 +137,7 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-	color: #558b2f;
+	color: #faab47;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
 	font-size: 90%;
@@ -151,7 +151,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-	color: #558b2f;
+	color: #faab47;
 }
 @media (min-width: 992px) {
 	#mainNav {
@@ -172,7 +172,7 @@ img::-moz-selection {
 	#mainNav.navbar-shrink {
 		padding-top: 0;
 		padding-bottom: 0;
-		background-color: #212529;
+		background-color: #0E1122;
 	}
 	#mainNav.navbar-shrink .navbar-brand {
 		font-size: 1.25em;
@@ -185,7 +185,7 @@ header.homepage-container {
 }
 header.masthead {
 	height: 100%;
-	background-image: url("../img/background/background-img6.png") !important;
+	background-image: url("../img/background/background.png") !important;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;

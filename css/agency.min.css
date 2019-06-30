@@ -112,7 +112,7 @@ img::-moz-selection {
 	background: 0 0;
 }
 #mainNav {
-	background-color: #212529;
+	background-color: #0e1122;
 	margin-bottom: 50px;
 }
 #mainNav .navbar-toggler {
@@ -137,7 +137,7 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-	color: #558b2f;
+	color: #5a7058;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
 	font-size: 90%;
@@ -151,7 +151,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-	color: #558b2f;
+	color: #5a7058;
 }
 @media (min-width: 992px) {
 	#mainNav {
@@ -185,7 +185,7 @@ header.homepage-container {
 }
 header.masthead {
 	height: 100%;
-	background-image: url("../img/background/background-img6.png") !important;
+	background-image: url("../img/background/background.png") !important;
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
