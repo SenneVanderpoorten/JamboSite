@@ -1,5 +1,5 @@
 // Styling for the masthead
-header.masthead {
+header.languages {
     text-align: center;
     color: white;
     background-image: url('../img/header-bgt.jpg');
@@ -28,7 +28,7 @@ header.masthead {
 }
 
 @media(min-width:768px) {
-    header.masthead {
+    header.languages {
         .intro-text {
             padding-top: 300px;
             padding-bottom: 200px;

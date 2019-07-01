@@ -5,18 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/agency.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logos/jambo_tekst_better.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logos/jambo_tekst_better_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logos/jambo_tekstlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logos/jambo_tekst_better_zwart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/languages/nederlands.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/languages/nederlands.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/agency.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/agency.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/agency.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/agency.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/de/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/es/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/es/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/fr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fr/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/it/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/it/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/nl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/nl/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/no/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/no/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_masthead.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,14 +31,59 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="252">
+              <caret line="200" column="75" selection-start-line="200" selection-start-column="75" selection-end-line="200" selection-end-column="75" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#nav#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#scripts#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/agency.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#238#0" />
+                <element signature="e#244#471#0" />
+                <element signature="e#474#497#0" />
+                <element signature="e#500#518#0" />
+                <element signature="e#527#547#0" />
+                <element signature="e#618#840#0" />
+                <element signature="e#849#871#0" />
+                <element signature="e#899#958#0" />
+                <element signature="e#989#1298#0" />
+                <element signature="e#1299#1362#0" />
+                <element signature="e#1336#1360#0" />
+                <element signature="e#1781#1801#0" />
+                <element signature="e#1810#1852#0" />
+                <element signature="e#1866#1921#0" />
+                <element signature="e#1982#2073#0" />
+                <element signature="e#2114#2249#0" />
+                <element signature="e#2267#2312#0" />
+                <element signature="e#2325#2370#0" />
+                <element signature="e#2391#2412#0" />
+                <element signature="e#2428#2449#0" />
+                <element signature="e#2470#2491#0" />
               </folding>
             </state>
           </provider>
@@ -65,9 +109,12 @@
       <find>dropdown-toggle</find>
       <find>container</find>
       <find>navbar-</find>
-      <find>masthe</find>
       <find>navbar</find>
       <find>btn lang</find>
+      <find>masthe</find>
+      <find>rounded</find>
+      <find>timeline</find>
+      <find>text-prim</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,13 +170,12 @@
             <path>
               <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,23 +243,24 @@
       <workItem from="1553100792901" duration="2103000" />
       <workItem from="1553117401275" duration="1129000" />
       <workItem from="1553159753010" duration="604000" />
-      <workItem from="1561886761369" duration="7082000" />
+      <workItem from="1561886761369" duration="7521000" />
+      <workItem from="1561974823092" duration="3023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49110000" />
+    <option name="totallyTimeSpent" value="52572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28023794" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21744877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Gulp" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -460,12 +508,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/logos/jambo_tekst_better.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/logos/jambo_tekst_better_zwart.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logos/jambo_tekst_better.png" />
+    <entry file="file://$PROJECT_DIR$/img/logos/jambo_tekst_better_zwart.png" />
     <entry file="file://$PROJECT_DIR$/img/logos/tripple points.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -491,17 +535,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/languages/noors.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/languages/duits.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/languages/france.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/languages/italy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/languages/nederlands.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/agency.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="e#0#238#0" />
             <element signature="e#244#471#0" />
             <element signature="e#474#497#0" />
             <element signature="e#500#518#0" />
             <element signature="e#527#547#0" />
-            <element signature="e#562#593#0" />
             <element signature="e#618#840#0" />
             <element signature="e#849#871#0" />
             <element signature="e#899#958#0" />
@@ -522,31 +580,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/languages/noors.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/languages/duits.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/languages/france.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/languages/italy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/languages/nederlands.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="252">
+          <caret line="200" column="75" selection-start-line="200" selection-start-column="75" selection-end-line="200" selection-end-column="75" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#nav#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#scripts#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

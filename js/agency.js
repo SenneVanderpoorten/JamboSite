@@ -58,5 +58,5 @@
 })(jQuery); // End of use strict
 
 $(document).ready(function(){
-	$('.masthead').height($(window).height());
+	$('.languages').height($(window).height());
    });
