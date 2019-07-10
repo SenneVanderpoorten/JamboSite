@@ -13,7 +13,7 @@ p {
 }
 
 a {
-    color: #fff
+    color: #343a40
 }
 
 a:hover {
@@ -753,7 +753,18 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    padding-inline-start: 40px;
+}
+.news-table li {
+    border-radius: 3px;
+    padding: 5px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+    padding-inline-start: 2px;
 }
 
 .table-header {
@@ -766,7 +777,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .table-row {
     background-color: #fff;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1)
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
 }
 
 .col-1 {
