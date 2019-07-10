@@ -667,7 +667,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .card {
-    margin: 10px;
+    margin: 5px;
     font-family: sans-serif;
     max-width: 100%;
     min-height: 370px;
@@ -762,7 +762,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     justify-content: space-between;
     margin-bottom: 5px;
     align-items: center;
-    font-size: 14px;
+    font-size: 15px;
     display: flex;
     padding-inline-start: 2px;
 }
