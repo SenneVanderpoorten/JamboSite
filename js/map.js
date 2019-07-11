@@ -13,7 +13,24 @@ $(document).ready(function showMap() {
             map: "worldHigh",
             getAreasFromMap: true,
             areas:
-                []
+                [
+                    {
+                        "id": "BE",
+                        "showAsSelected": true
+                    },
+                    {
+                        "id": "CA",
+                        "showAsSelected": true
+                    },
+                    {
+                        "id": "UY",
+                        "showAsSelected": true
+                    },
+                    {
+                        "id": "HK",
+                        "showAsSelected": true
+                    }
+                ]
         },
         areasSettings: {
             autoZoom: true,
