@@ -757,6 +757,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     padding-inline-start: 40px
 }
 
+.news-table li {
+    border-radius: 3px;
+    padding: 5px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    padding-inline-start: 2px;
+    padding-inline-start: 40px
+}
 .table-header {
     background-color: #558b2f;
     font-size: 15px;
