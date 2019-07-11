@@ -12,8 +12,6 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
@@ -571,27 +569,26 @@
         </div>
     </div>
     <div class="container">
-        <div class="row align-items-start">
+        <div class="row">
             <div class="col-12 col-md-8">
-                <div class="row">
-                    <h5>Jamborette 2020 in the newspaper</h5>
-                    <div id="newsTable" style="margin-bottom: 30px"></div>
-                </div>
-                <div class="row">
-                    <h5>Who's coming?</h5>
-                    <!-- TODO: insert live map with attendees -->
-                </div>
+                <h5>Jamborette 2020 in the newspaper</h5>
+                <br>
+                <div id="newsTable" style="margin-bottom: 30px"></div>
             </div>
             <div class="col-6 col-md-4">
-                <div class="row">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJambo2020%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=514010562306298"
-                            width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                            allowTransparency="true" allow="encrypted-media"></iframe>
-                </div>
-                <div class="row align-items-center" style="padding-top: 12px">
-                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                    <div class="elfsight-app-44c1232e-e6b3-4b0d-8e52-28e546bb2c01"></div>
-                </div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJambo2020%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=514010562306298"
+                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <h5>Who's coming?</h5>
+                <br>
+                <div class="mapdiv" id="mapdiv"></div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="elfsight-app-44c1232e-e6b3-4b0d-8e52-28e546bb2c01"></div>
             </div>
         </div>
     </div>
@@ -838,6 +835,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
     <script src="js/photoGallery.js"></script>
     <script src="js/newsfeed.js"></script>
+    <script src="js/map.js"></script>
+    <script src="http://www.webglearth.com/v2/api.js"></script>
+    <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js"
+            type="text/javascript"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 </scripts>
 </body>
 </html>

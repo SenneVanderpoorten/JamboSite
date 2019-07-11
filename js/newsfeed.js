@@ -4,7 +4,7 @@ $(document).ready(function showNews() {
         $.each(data, function (key, value) {
             res += "<a href='" + value["link"] + "' target='_blank'>";
             res += "<li class='table-row'>";
-            res += "<div class='col-8'>" + value["titel"] + "</div>";
+            res += "<div class='col-8' style='font-style: italic'>" + value["titel"] + "</div>";
             res += "<div class='col-2'>" + value["datum"] + "</div>";
             res += "<div class='col-2'>" + value["krant"] + "</div>";
             res += "</li>";

@@ -756,6 +756,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin-bottom: 10px;
     padding-inline-start: 40px;
 }
+
 .news-table li {
     border-radius: 3px;
     padding: 5px;
@@ -821,4 +822,11 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
         flex-basis: 50%;
         text-align: right
     }
+}
+
+.mapdiv {
+    min-width: 750px;
+    min-height: 550px;
+    margin-bottom: 30px;
+    display: flex;
 }
