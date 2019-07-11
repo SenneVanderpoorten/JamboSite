@@ -625,7 +625,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color: #558b2f;
+    background-color: #558b2f
 }
 
 @keyframes imageAnimation {
@@ -754,18 +754,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-    padding-inline-start: 40px;
-}
-
-.news-table li {
-    border-radius: 3px;
-    padding: 5px;
-    justify-content: space-between;
-    margin-bottom: 5px;
-    align-items: center;
-    font-size: 15px;
-    display: flex;
-    padding-inline-start: 2px;
+    padding-inline-start: 40px
 }
 
 .table-header {
@@ -778,7 +767,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .table-row {
     background-color: #fff;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1)
 }
 
 .col-1 {
@@ -828,5 +817,5 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     min-width: 750px;
     min-height: 550px;
     margin-bottom: 30px;
-    display: flex;
+    display: flex
 }
