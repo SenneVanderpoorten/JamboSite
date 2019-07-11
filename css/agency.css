@@ -529,7 +529,7 @@ header.languages {
 }
 
 section#contact {
-    background-color: #212529;
+    background-color: #0E1122;
     background-image: url(../img/map-image.png);
     background-repeat: no-repeat;
     background-position: center
@@ -829,4 +829,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     min-height: 550px;
     margin-bottom: 30px;
     display: flex
+}
+
+.activitiesTimeline{
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
 }
