@@ -45,3 +45,5 @@ $(document).ready(function showMap() {
 
     document.getElementById("mapdiv").innerHTML = map;
 });
+
+//site voor landcodes: https://www.amcharts.com/visited_countries/#BE,CA,UY,HK
