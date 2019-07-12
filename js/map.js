@@ -4,7 +4,7 @@ $(document).ready(function showMap() {
         theme: "dark",
         projection: "miller",
         panEventsEnabled: true,
-        backgroundColor: "#f8f9fa",
+        backgroundColor: "#fff",
         backgroundAlpha: 1,
         zoomControl: {
             zoomControlEnabled: true
