@@ -173,7 +173,7 @@ img::-moz-selection {
 
 header.languages {
     height: 100%;
-    background-image: url(../img/background/background.png) !important;
+    background-image: url(https://www.jamborette.be/img/background/background.png) !important;
     background-attachment: fixed;
     background-position: center;
     background-size: cover

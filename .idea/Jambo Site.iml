@@ -14,5 +14,12 @@
     <orderEntry type="library" name="dark" level="application" />
     <orderEntry type="library" name="ammap" level="application" />
     <orderEntry type="library" name="platform" level="application" />
+    <orderEntry type="library" name="bootstrap.bundle" level="application" />
+    <orderEntry type="library" name="jquery.easing" level="application" />
+    <orderEntry type="library" name="jqBootstrapValidation" level="application" />
+    <orderEntry type="library" name="agency" level="application" />
+    <orderEntry type="library" name="map" level="application" />
+    <orderEntry type="library" name="photoGallery" level="application" />
+    <orderEntry type="library" name="newsfeed" level="application" />
   </component>
 </module>
