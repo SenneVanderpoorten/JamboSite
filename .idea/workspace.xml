@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/de/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/de/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/it/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/languages/it/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,13 +18,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/languages/de/index.html">
+        <entry file="file://$PROJECT_DIR$/languages/it/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="473">
+              <caret line="716" column="21" lean-forward="true" selection-start-line="716" selection-start-column="21" selection-end-line="716" selection-end-column="21" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -33,8 +37,6 @@
                 <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -100,7 +102,6 @@
         <option value="$PROJECT_DIR$/js/agency.js" />
         <option value="$PROJECT_DIR$/languages/en/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/languages/it/index.html" />
         <option value="$PROJECT_DIR$/languages/fr/index.html" />
         <option value="$PROJECT_DIR$/languages/es/index.html" />
         <option value="$PROJECT_DIR$/js/news.js" />
@@ -116,6 +117,7 @@
         <option value="$PROJECT_DIR$/languages/nl/index.html" />
         <option value="$PROJECT_DIR$/js/newsfeed.js" />
         <option value="$PROJECT_DIR$/languages/de/index.html" />
+        <option value="$PROJECT_DIR$/languages/it/index.html" />
       </list>
     </option>
   </component>
@@ -143,17 +145,6 @@
               <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jambo Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jambo Site" type="462c0819:PsiDirectoryNode" />
-              <item name="languages" type="462c0819:PsiDirectoryNode" />
-              <item name="de" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -172,17 +163,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\de" />
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\en" />
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\es" />
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\fr" />
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\it" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\img\timeline" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\css" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\it" />
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\de" />
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\en" />
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\es" />
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\fr" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,11 +230,13 @@
       <workItem from="1563216535216" duration="324000" />
       <workItem from="1563347935274" duration="1721000" />
       <workItem from="1563437129164" duration="2067000" />
+      <workItem from="1563875547515" duration="104000" />
+      <workItem from="1563875667294" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129000000" />
+    <option name="totallyTimeSpent" value="130211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,16 +341,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/logos/jambo_tekst_better.png" />
     <entry file="file://$PROJECT_DIR$/img/logos/jambo_tekst_better_zwart.png" />
-    <entry file="file://$PROJECT_DIR$/languages/it/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/languages/noors.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -527,19 +510,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/languages/de/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="570" column="10" lean-forward="true" selection-start-line="570" selection-start-column="10" selection-end-line="570" selection-end-column="10" />
+        <state relative-caret-position="136">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#35088#35094#0" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -552,8 +541,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/languages/nl/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="586" column="13" selection-start-line="586" selection-start-column="5" selection-end-line="586" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="588" column="21" selection-end-line="872" selection-end-column="7" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -577,13 +566,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/de/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="91">
+          <caret line="570" column="10" selection-start-line="570" selection-start-column="10" selection-end-line="570" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#35088#35094#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#scripts#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/it/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="716" column="21" lean-forward="true" selection-start-line="716" selection-start-column="21" selection-end-line="716" selection-end-column="21" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
@@ -594,8 +608,6 @@
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
