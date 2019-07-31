@@ -2,7 +2,11 @@ function loadLanguage(lang) {
     $('.lang').each(function (index, element) {
         $(this).text(languages[lang][$(this).attr('key')]);
     })
-    $('.activitiesTimeline').attr("src", languages[lang].timeline)
+    $('.activitiesTimeline').attr("src", languages[lang].timeline);
+    $('#name').attr("placeholder", languages[lang].name);
+    $('#email').attr("placeholder", languages[lang].email);
+    $('#phone').attr("placeholder", languages[lang].phone);
+    $('#message').attr("placeholder", languages[lang].message);
 }
 
 const languages = {
@@ -78,6 +82,10 @@ const languages = {
         //CONTACT
         'contact-us': 'CONTACT US',
         'contact-sub': 'FEEL FREE TO CONTACT US IF YOU HAVE ANY QUESTIONS AT ALL!\n',
+        'name':'Your Name *',
+        'phone':'Your Email *',
+        'email':'Your Phone *',
+        'message':'Your Message *',
         'send-message': 'Send message',
     },
     de: {
@@ -119,7 +127,7 @@ const languages = {
         'activities-sub': 'Ein kleines Übersicht von alle tolle Aktivitäten während das Jamborette.',
         'timeline': 'img/timeline/timeline-de.png',
         //ORGANISATION
-        'organisation-sub': 'In diese Sektion finden Sie die verschiedene Komitees und ihr Haupt, Sie arbeiten zusammen mit nur ein ziel: Jamborette 2020 ein unvergeßliche Erfahrung! Fragen? Interessiert? Wir sind nur eine Email entfernt!',
+        'organisation-sub': 'In diese Sektion finden Sie die verschiedene Komitees und ihr Haupt, Sie arbeiten zusammen mit nur ein ziel: Jamborette 2020 ein unvergeßliche Erfahrung!\n Fragen? Interessiert? Wir sind nur eine Email entfernt!\n',
         'communication': 'Kommunikation',
         'program': 'Programm',
         'logistics': 'Logistik',
@@ -142,12 +150,16 @@ const languages = {
         'photo-2020': 'Hier finden Sie die Bilder von unsere Jamborette 2020. Bald.',
         'close-gallery': 'Galerie schließen',
         //NEWSFEED
-        'newsfeed-sub': 'Bleiben Sie dran mit die neuesten Entwicklungen.',
+        'newsfeed-sub': 'Bleiben Sie dran mit die neuesten Entwicklungen.\n',
         'paper': 'Jamborette 2020 in die Zeitung.',
         'who-coming': 'Wer kommt?',
         //CONTACT
         'contact-us': 'KONTAKTIERE UNS',
-        'contact-sub': 'KONTAKTIERE UNS FALLS SIE FRAGEN HABEN!',
+        'contact-sub': 'KONTAKTIERE UNS FALLS SIE FRAGEN HABEN!\n',
+        'name':'Ihre Name *',
+        'phone':'Ihre Email *',
+        'email':'Ihr Telefon *',
+        'message':'Ihr Bericht *',
         'send-message': 'Bericht schicken',
     },
     es: {
@@ -218,6 +230,10 @@ const languages = {
         //CONTACT
         'contact-us': '',
         'contact-sub': '',
+        'name':'',
+        'phone':'',
+        'email':'',
+        'message':'',
         'send-message': '',
     },
     fr: {
@@ -288,6 +304,10 @@ const languages = {
         //CONTACT
         'contact-us': '',
         'contact-sub': '',
+        'name':'',
+        'phone':'',
+        'email':'',
+        'message':'',
         'send-message': '',
     },
     it: {
@@ -357,7 +377,11 @@ const languages = {
         'who-coming': 'Chi viene all’evento?',
         //CONTACT
         'contact-us': 'CONTATTACI',
-        'contact-sub': 'Non esita a contattaci per chiedere qualcosa!',
+        'contact-sub': 'Non esita a contattaci per chiedere qualcosa!\n',
+        'name':'Il tuo nome *',
+        'phone':'Il tuo numero di telefono *',
+        'email':'La tua e-mail *',
+        'message':'Il tuo messaggio *',
         'send-message': 'Invia il tuo messaggio',
     },
     nl: {
@@ -422,12 +446,16 @@ const languages = {
         'photo-2020': 'Binnenkort kunt u hier de eerste foto’s van de jambo 2020 vinden!',
         'close-gallery': 'Gallerij sluiten',
         //NEWSFEED
-        'newsfeed-sub': 'Volg alle laatste ontwikkelingen in verband met ons evenement.',
+        'newsfeed-sub': 'Volg alle laatste ontwikkelingen in verband met ons evenement.\n',
         'paper': 'Jamborette 2020 in de krant',
         'who-coming': 'Wie komt er al?',
         //CONTACT
         'contact-us': 'Contacteer ons',
-        'contact-sub': 'AARZEL NIET OM ONS TE CONTACTEREN IN HET GEVAL VAN VRAGEN!',
+        'contact-sub': 'AARZEL NIET OM ONS TE CONTACTEREN IN HET GEVAL VAN VRAGEN!\n',
+        'name':'Jouw naam *',
+        'phone':'Jouw telefoonnummer *',
+        'email':'Jouw email *',
+        'message':'Jouw bericht *',
         'send-message': 'Bericht versturen',
     },
     no: {
@@ -491,6 +519,10 @@ const languages = {
         //CONTACT
         'contact-us': '',
         'contact-sub': '',
+        'name':'',
+        'phone':'',
+        'email':'',
+        'message':'',
         'send-message': '',
     },
 };
