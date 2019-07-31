@@ -1,21 +1,12 @@
-var language = {
-    de:{
+const languages = {
+    "de": {},
+    "es": {},
+    "fr": {},
+    "it": {},
+    "nl": {},
+    "no": {},
+}
 
-    },
-    es:{
-
-    },
-    fr:{
-
-    },
-    it:{
-
-    },
-    nl:{
-
-    },
-    no:{
-
-    },
-
+function loadLanguage(lang) {
+    console.log(lang);
 }

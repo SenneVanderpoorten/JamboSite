@@ -1,5 +1,5 @@
 $(document).ready(function showNews() {
-    $.getJSON("/news/news.json", function (data) {
+    $.getJSON("news/news.json", function (data) {
         let res = "<div class='news-table'>";
         $.each(data, function (key, value) {
             res += "<a href='" + value["link"] + "' target='_blank'>";
