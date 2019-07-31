@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/languages.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/languages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="459">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -248,12 +246,12 @@
       <workItem from="1563875547515" duration="104000" />
       <workItem from="1563875667294" duration="1012000" />
       <workItem from="1563970381190" duration="540000" />
-      <workItem from="1564562171844" duration="4018000" />
+      <workItem from="1564562171844" duration="4665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135145000" />
+    <option name="totallyTimeSpent" value="135792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/languages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="459">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
         </state>
       </provider>
     </entry>
