@@ -12,7 +12,7 @@ const languages = {
         'activities': 'activities ',
         'organisation': 'organisation',
         'interested': 'interested?',
-        'pictures': 'pictures',
+        'photos': 'pictures',
         'newsfeed': 'newsfeed',
         'contact': 'contact ',
         //HISTORY
@@ -74,7 +74,7 @@ const languages = {
         'activities': 'AKTIVITÄTEN ',
         'organisation': 'ORGANISATION',
         'interested': 'INTERESSIERT?',
-        'pictures': 'FOTO’S',
+        'photos': 'FOTO’S',
         'newsfeed': 'Nachrichtenüberblick',
         'contact': 'KONTAKT ',
         //HISTORY
@@ -136,7 +136,7 @@ const languages = {
         'activities': ' ',
         'organisation': '',
         'interested': '',
-        'pictures': '',
+        'photos': '',
         'newsfeed': '',
         'contact': 'contact ',
         //HISTORY
@@ -198,7 +198,7 @@ const languages = {
         'activities': ' ',
         'organisation': '',
         'interested': '',
-        'pictures': '',
+        'photos': '',
         'newsfeed': '',
         'contact': 'contact ',
         //HISTORY
@@ -260,7 +260,7 @@ const languages = {
         'activities': 'ATTIVITÀ ',
         'organisation': 'L’ORGANIZZAZIONNE',
         'interested': 'INTERESSATO?',
-        'pictures': 'IMMAGINI',
+        'photos': 'IMMAGINI',
         'newsfeed': 'NOTIZIE',
         'contact': 'contact ',
         //HISTORY
@@ -322,7 +322,7 @@ const languages = {
         'activities': 'Activiteiten',
         'organisation': 'organisatie',
         'interested': 'Interesse?',
-        'pictures': 'FOTO’S',
+        'photos': 'FOTO’S',
         'newsfeed': 'Nieuwsoverzicht',
         'contact': 'contact ',
         //HISTORY
@@ -384,7 +384,7 @@ const languages = {
         'activities': ' ',
         'organisation': '',
         'interested': '',
-        'pictures': '',
+        'photos': '',
         'newsfeed': '',
         'contact': 'contact ',
         //HISTORY
