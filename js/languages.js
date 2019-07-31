@@ -2,6 +2,7 @@ function loadLanguage(lang) {
     $('.lang').each(function (index, element) {
         $(this).text(languages[lang][$(this).attr('key')]);
     })
+    $('.activitiesTimeline').attr("src",languages[lang].timeline)
 }
 
 const languages = {
@@ -27,22 +28,23 @@ const languages = {
         '100-years': '100 Years Scouting Ninove',
         'timeline-4': 'In 2020, Scouting in Ninove will celebrate its 100th anniversary. This is the perfect occasion for us to organize a third edition of our Jamborette. Because our centenary really is something special and calls for a good party, this time it will be a festive edition focused on celebrating holidays. We hope to welcome you all as a participant or visitor of the ‘open tent day’ on July 25th 2020.',
         //INFORMATION
-        'when': '',
-        'when-sub': '',
-        'what': '',
-        'what-sub': '',
-        'where': '',
-        'where-sub': '',
-        'ninove': '',
-        'aalst': '',
-        'gent': '',
-        'brussel': '',
-        'antwerpen': '',
-        'cities-sub': '',
-        'who': '',
-        'who-sub': '',
+        'when': 'When?',
+        'when-sub': 'The Jamborette takes place from Saturday the 18th until Tuesday the 28th of July 2020.',
+        'what': 'What?',
+        'what-sub': 'You will not be bored out during this camp! We have provided various activities such as games, shows, a big dinner etc. Also we will arrange visits to some of Belgium’s most beautiful cities.',
+        'where': 'Where?',
+        'where-sub': 'Our third Jamborette will take place in the beautiful city of Ninove, also called the oldest, the wildest and the wisest of all cities. Ninove is located in the heart of three pleasant regions. (Scheldeland, Flemish Ardennes and the region we call “The Green Belt”).',
+        'ninove': 'Ninove is centrally located in Belgium, so it’s not so far to cities like:',
+        'aalst': 'Aalst (15 km)',
+        'gent': 'Gent (35 km)',
+        'brussel': 'Brussels (20 km)',
+        'antwerpen': 'Antwerp (70 km)',
+        'cities-sub': 'Our city lies on the banks of the Dender. This river arises in Aalst and ends after 65 km in the Scheldt in Dendermonde.',
+        'who': 'Who?',
+        'who-sub': 'The Jamborette is meant for boys and girls from the age of 14 (born in 2006 and later) until 18, accompanied by their leaders of course.',
         //ACTIVITIES
         'activities-sub': '',
+        'timeline':'img/timeline/timeline-en.png',
         //ORGANISATION
         'organisation-sub': '',
         //INTERESTED
@@ -105,6 +107,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
+        'timeline':'img/timeline/timeline-de.png',
         //ORGANISATION
         'organisation-sub': '',
         //INTERESTED
@@ -167,6 +170,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
+        'timeline':'img/timeline/timeline-en.png',
         //ORGANISATION
         'organisation-sub': '',
         //INTERESTED
@@ -229,6 +233,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
+        'timeline':'img/timeline/timeline-en.png',
         //ORGANISATION
         'organisation-sub': '',
         //INTERESTED
@@ -291,6 +296,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
+        'timeline':'img/timeline/timeline-en.png',
         //ORGANISATION
         'organisation-sub': '',
         //INTERESTED
@@ -353,6 +359,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
+        'timeline':'img/timeline/timeline-en.png',
         //ORGANISATION
         'organisation-sub': '',
         //INTERESTED
@@ -415,6 +422,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
+        'timeline':'img/timeline/timeline-en.png',
         //ORGANISATION
         'organisation-sub': '',
         //INTERESTED
