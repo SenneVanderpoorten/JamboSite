@@ -187,11 +187,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
-<<<<<<< HEAD
         'timeline':'img/timeline/timeline-es.png',
-=======
-        'timeline': 'img/timeline/timeline-en.png',
->>>>>>> 3f23a1b5a7aec22072b6ca687e2f5610c557a4f7
         //ORGANISATION
         'organisation-sub': '',
         'communication':'',
@@ -261,11 +257,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
-<<<<<<< HEAD
         'timeline':'img/timeline/timeline-fr.png',
-=======
-        'timeline': 'img/timeline/timeline-en.png',
->>>>>>> 3f23a1b5a7aec22072b6ca687e2f5610c557a4f7
         //ORGANISATION
         'organisation-sub': '',
         'communication':'',
@@ -334,13 +326,8 @@ const languages = {
         'who': 'Chi?',
         'who-sub': 'Jamborette 2020 organizza un campo per esploratori ed esploratrici da quattordici anni a diciotto anni, accompagnato dai loro capi (ovviamente).',
         //ACTIVITIES
-<<<<<<< HEAD
         'activities-sub': 'Qui si trova qualche esempio di attività che succederanno durante il Jamborette.',
         'timeline':'img/timeline/timeline-it.png',
-=======
-        'activities-sub': '',
-        'timeline': 'img/timeline/timeline-en.png',
->>>>>>> 3f23a1b5a7aec22072b6ca687e2f5610c557a4f7
         //ORGANISATION
         'organisation-sub': 'Qui può trovare la nostra amministrazione ambiziosa. Siamo sempre pronti per rispondere a tutte le vostre domande.',
         'communication':'Communication',
@@ -409,13 +396,8 @@ const languages = {
         'who': 'Wie?',
         'who-sub': 'Jamborette 2020 verwelkomt graag jongens en meisjes van 14 tot 18 jaar oud, uiteraard vergezeld door hun leiders.',
         //ACTIVITIES
-<<<<<<< HEAD
         'activities-sub': 'Een kort overzicht van enkele van de activiteiten die van deze Jamborette een unieke ervaring zullen maken.',
         'timeline':'img/timeline/timeline-nl.png',
-=======
-        'activities-sub': '',
-        'timeline': 'img/timeline/timeline-en.png',
->>>>>>> 3f23a1b5a7aec22072b6ca687e2f5610c557a4f7
         //ORGANISATION
         'organisation-sub': 'Hier kan u het ambitieuze team vinden dat zijn schouders onder het grootste Jamborette 2020-project zet. We zijn steeds bereikbaar voor al uw vragen!',
         'communication':'Communicatie',
