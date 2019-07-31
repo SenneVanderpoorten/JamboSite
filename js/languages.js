@@ -6,6 +6,7 @@ function loadLanguage(lang) {
 
 const languages = {
     en: {
+        //NAVIGATION
         'history': 'history',
         'information': 'information',
         'activities': 'activities ',
@@ -13,7 +14,17 @@ const languages = {
         'interested': 'interested?',
         'pictures': 'pictures',
         'newsfeed': 'newsfeed',
-        'contact': 'contact '
+        'contact': 'contact ',
+
+        //HISTORY
+        //INFORMATION
+        //ACTIVITIES
+        //ORGANISATION
+        //INTERESTED
+        //PICTURES
+        //NEWSFEED
+        //CONTACT
+
     },
     de: {
         'history': 'GESCHICHTE',
