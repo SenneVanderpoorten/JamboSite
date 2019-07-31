@@ -2,7 +2,7 @@ function loadLanguage(lang) {
     $('.lang').each(function (index, element) {
         $(this).text(languages[lang][$(this).attr('key')]);
     })
-    $('.activitiesTimeline').attr("src",languages[lang].timeline)
+    $('.activitiesTimeline').attr("src", languages[lang].timeline)
 }
 
 const languages = {
@@ -43,32 +43,42 @@ const languages = {
         'who': 'Who?',
         'who-sub': 'The Jamborette is meant for boys and girls from the age of 14 (born in 2006 and later) until 18, accompanied by their leaders of course.',
         //ACTIVITIES
-        'activities-sub': '',
-        'timeline':'img/timeline/timeline-en.png',
+        'activities-sub': 'A small overview of some of the many awesome activities that will take place during the Jamborette.',
+        'timeline': 'img/timeline/timeline-en.png',
         //ORGANISATION
-        'organisation-sub': '',
+        'organisation-sub': 'In this section, you can find the different committees and their heads, who work together with only one objective: making Jamborette 2020 an unforgettable experience!\n' +
+            'Questions? Interested? We are only one mail away!\n',
+        'program': 'Program',
+        'logistics': 'Logistics',
+        'security': 'Security',
+        'social-media': 'Social Media',
+        'kitchen': 'Kitchen',
+        'events': 'Events',
         //INTERESTED
-        'interested-sub': '',
-        'pricing': '',
-        'pricing-sub': '',
-        'plane-ticket': '',
-        'campprice': '',
-        'benefit': '',
-        'registration': '',
+        'interested-sub': 'Please do not hesitate to contact us if you are interested in attending the camp or if you have any questions. We are happy to provide you more information!',
+        'pricing': 'Pricing',
+        'pricing-sub': 'The price for the camp is based on your country of origin and we try to compensate as much as possible for expensive plane tickets. For this, we use a similar system like the Jamboree-team. Our goal is to offer everybody a chance to experience this unforgettable journey! We cannot provide specific information about the price yet, because we are still making contacts with partners and planning activities. However, we can already provide you with an estimated price of € 250. For non-EU citizens, who already spend a lot of money on a plane ticket, we have arranged following contribution:',
+        'plane-ticket': 'Plane ticket price',
+        'campprice': 'Camp price',
+        'benefit': '*To benefit from this contribution, the cheapest plane ticket has to be purchased',
+        'registration': 'Registration',
         //PICTURES
-        'pictures': '',
-        'photo-1994': '',
+        'pictures': 'Pictures',
+        'photo-1994': 'Due to the fact that 1994 is a long time ago, \n' +
+            'finding pictures is not as easy as we thought it would be. \n' +
+            'But remember, a scout never gives up!\n',
         'photo-2010': '',
-        'photo-2020': '',
-        'close-gallery': '',
+        'photo-2020': 'Here you\'ll find the first pictures of our jambo 2020. \n' +
+            'Soon!\n',
+        'close-gallery': 'Close Gallery',
         //NEWSFEED
-        'newsfeed-sub': '',
-        'paper': '',
-        'who-coming': '',
+        'newsfeed-sub': 'Stay tuned with the latest updates concerning our event.\n',
+        'paper': 'Jamborette 2020 in the newspaper',
+        'who-coming': 'Who\'s coming?',
         //CONTACT
-        'contact-us': '',
-        'contact-sub': '',
-        'send-message': '',
+        'contact-us': 'CONTACT US',
+        'contact-sub': 'FEEL FREE TO CONTACT US IF YOU HAVE ANY QUESTIONS AT ALL!\n',
+        'send-message': 'Send message',
     },
     de: {
         'history': 'GESCHICHTE',
@@ -80,65 +90,65 @@ const languages = {
         'newsfeed': 'Nachrichtenüberblick',
         'contact': 'KONTAKT ',
         //HISTORY
-        'brief-history':'EINE KURZE GESCHICHTE',
-        'brief-history-sub':'Eine kurze uber die Tradition',
-        'humble':'Unsere bescheidenen Anfänge',
-        'timeline-1':'An einem bestimmten Tag im Jahre 1919, erhielt ein Mann namens Karel Fransman von einem Freund das kleines Büchlein „Grundregeln der Baden-Powell Belgian Boy Scouts“. Er war wirklich fasziniert von den Konzepten des Scouting und davon, welche großen Unterschiede es für die Leben der Jungen von Ninove machen könnte. Mit Hilfe der örtlichen Kirche, vertreten durch Vater Corteville, wurden die Scouts von Ninove 1920 geboren. Es war der Bescheidene Beginn einer Erfolgsgeschichte.',
-        '75-years':'75 Jahre Scouting in Ninove',
-        'timeline-2':'1994 bliesen die Boy Scouts von Ninove 75 Kerzen aus, und sie wollten diesen Jahrestag nicht allein feiern. Sie beschlossen, ein internationales Camp in ihrer Heimatstadt zu organisieren und luden aus sechs verschiedenen Länder ein. Für eine ausgewogene Mischung verschiedener Nationalitäten waren nur die Boy und Girl Scouts von Ninove als einzigen belgische Gruppen anwesend. Schließlich nahmen etwa 260 Scouts aus verschiedenen Ländern wie den Niederlanden, Schottland, der Tschechischen Republik, Deutschland und Italien teil! Alle Aktivitäten während des Camps beschäftigten sich mit einem Thema: Recycling. Ein „Greenteam“ fungierte als Vorbild für alle Teilnehmer, um Materialien auf eine nachhaltige und korrekte Weise einzusetzen. Eine Fortsetzung dieses großen Erfolgs war unvermeidlich…',
-        '90-years':'90 Jahre Scouting in Ninove',
-        'timeline-3':'Die Fortsetzung kam 2010. Dem Jahr, in dem die Boy Scouts von Ninove 90 Jahre alt wurden - der perfekte Anlass für eine zweite Edition des Jamborette. Scouting Gruppen aus aller Welt kamen nach Ninove, wo das Weideland von Wolfsput von24. Juni bis zum 2. August 2010 in eine pulsierende Scouting Metropole verwandelt wurde. Das zentrale Thema dieses Camps wurde „Scouting in the middle ages – Scouting im Mittelalter“ und alles bezog sich, so gut wie möglich, auf dieses Zeitalter. Auch die zweite Edition stellte sich als sehr erfolgreich heraus. Etwa 300 Scouts aus 16 verschiedene Ländern nahmen an diesem Ereignis teil. Für die Boy und Girl Scouts von Ninove schmeckte das nach mehr…',
-        '100-years':'100 Jahre Scouting in Ninove',
-        'timeline-4':'2020 feiert Scouting in Ninove den 100. Jahrestag. Dies ist die perfekte Gelegenheit für und, eine dritte Edition unseres Jamborette zu organisieren. Da unser Jubiläum wirklich etwas Besonderes ist und nach einer Party verlangt, wird es diesmal eine festliche Veranstaltung sein, bei der die Feiertage im Mittelpunkt stehen. Wir hoffen, euch alle als Teilnehmer oder Besucher zum „Tag des offenen Zelts“ am 25. Juli 2020 begrüßen zu dürfen.',
+        'brief-history': 'EINE KURZE GESCHICHTE',
+        'brief-history-sub': 'Eine kurze uber die Tradition',
+        'humble': 'Unsere bescheidenen Anfänge',
+        'timeline-1': 'An einem bestimmten Tag im Jahre 1919, erhielt ein Mann namens Karel Fransman von einem Freund das kleines Büchlein „Grundregeln der Baden-Powell Belgian Boy Scouts“. Er war wirklich fasziniert von den Konzepten des Scouting und davon, welche großen Unterschiede es für die Leben der Jungen von Ninove machen könnte. Mit Hilfe der örtlichen Kirche, vertreten durch Vater Corteville, wurden die Scouts von Ninove 1920 geboren. Es war der Bescheidene Beginn einer Erfolgsgeschichte.',
+        '75-years': '75 Jahre Scouting in Ninove',
+        'timeline-2': '1994 bliesen die Boy Scouts von Ninove 75 Kerzen aus, und sie wollten diesen Jahrestag nicht allein feiern. Sie beschlossen, ein internationales Camp in ihrer Heimatstadt zu organisieren und luden aus sechs verschiedenen Länder ein. Für eine ausgewogene Mischung verschiedener Nationalitäten waren nur die Boy und Girl Scouts von Ninove als einzigen belgische Gruppen anwesend. Schließlich nahmen etwa 260 Scouts aus verschiedenen Ländern wie den Niederlanden, Schottland, der Tschechischen Republik, Deutschland und Italien teil! Alle Aktivitäten während des Camps beschäftigten sich mit einem Thema: Recycling. Ein „Greenteam“ fungierte als Vorbild für alle Teilnehmer, um Materialien auf eine nachhaltige und korrekte Weise einzusetzen. Eine Fortsetzung dieses großen Erfolgs war unvermeidlich…',
+        '90-years': '90 Jahre Scouting in Ninove',
+        'timeline-3': 'Die Fortsetzung kam 2010. Dem Jahr, in dem die Boy Scouts von Ninove 90 Jahre alt wurden - der perfekte Anlass für eine zweite Edition des Jamborette. Scouting Gruppen aus aller Welt kamen nach Ninove, wo das Weideland von Wolfsput von24. Juni bis zum 2. August 2010 in eine pulsierende Scouting Metropole verwandelt wurde. Das zentrale Thema dieses Camps wurde „Scouting in the middle ages – Scouting im Mittelalter“ und alles bezog sich, so gut wie möglich, auf dieses Zeitalter. Auch die zweite Edition stellte sich als sehr erfolgreich heraus. Etwa 300 Scouts aus 16 verschiedene Ländern nahmen an diesem Ereignis teil. Für die Boy und Girl Scouts von Ninove schmeckte das nach mehr…',
+        '100-years': '100 Jahre Scouting in Ninove',
+        'timeline-4': '2020 feiert Scouting in Ninove den 100. Jahrestag. Dies ist die perfekte Gelegenheit für und, eine dritte Edition unseres Jamborette zu organisieren. Da unser Jubiläum wirklich etwas Besonderes ist und nach einer Party verlangt, wird es diesmal eine festliche Veranstaltung sein, bei der die Feiertage im Mittelpunkt stehen. Wir hoffen, euch alle als Teilnehmer oder Besucher zum „Tag des offenen Zelts“ am 25. Juli 2020 begrüßen zu dürfen.',
         //INFORMATION
-        'when':'Wann?',
-        'when-sub':'Das Jamborette findet von Samstag, den 18. Juli 2020 bis Dienstag den 28. Juli 2020 statt.',
-        'what':'Was?',
-        'what-sub':'Ihr werdet euch während des Camps nicht langweilen. Wir werden verschiedene Aktivitäten wie Spiele, Shows, ein großes Abendessen etc. anbieten. Außerdem werden wir Besuche von einigen der schönsten Städte Belgiens organisieren.',
-        'where':'Wo?',
-        'where-sub':'Wie bereits die beiden vorherigen Editionen, wird das dritte Jamborette ebenfalls in unserer schönen Stadt Ninove stattfinden - inmitten der drei wunderschönen Regionen Scheldeland, Flämische Ardennen und der Region, die wir den „Grünen Gürtel“ nennen.',
-        'ninove':'Ninove liegt im Zentrum Belgiens, also ist es nicht sehr weit entfernt von Städten, wie:',
-        'aalst':'Aalst (15 km)',
-        'gent':'Gent (35 km)',
-        'brussel':'Brüssel (20 km)',
-        'antwerpen':'Antwerpen (70 km)',
-        'cities-sub':'Unsere Stadt liegt an den Ufern des Flusses Dender, die in Ath entspringt und nach 65 km in Dendermonde in die Schlede mündet.',
-        'who':'Für wen?',
-        'who-sub':'Das Jamborette ist gedacht für Jungen und Mädchen von 14 bis 18 Jahren – natürlich begleitet durch ihre Gruppenleiter.',
+        'when': 'Wann?',
+        'when-sub': 'Das Jamborette findet von Samstag, den 18. Juli 2020 bis Dienstag den 28. Juli 2020 statt.',
+        'what': 'Was?',
+        'what-sub': 'Ihr werdet euch während des Camps nicht langweilen. Wir werden verschiedene Aktivitäten wie Spiele, Shows, ein großes Abendessen etc. anbieten. Außerdem werden wir Besuche von einigen der schönsten Städte Belgiens organisieren.',
+        'where': 'Wo?',
+        'where-sub': 'Wie bereits die beiden vorherigen Editionen, wird das dritte Jamborette ebenfalls in unserer schönen Stadt Ninove stattfinden - inmitten der drei wunderschönen Regionen Scheldeland, Flämische Ardennen und der Region, die wir den „Grünen Gürtel“ nennen.',
+        'ninove': 'Ninove liegt im Zentrum Belgiens, also ist es nicht sehr weit entfernt von Städten, wie:',
+        'aalst': 'Aalst (15 km)',
+        'gent': 'Gent (35 km)',
+        'brussel': 'Brüssel (20 km)',
+        'antwerpen': 'Antwerpen (70 km)',
+        'cities-sub': 'Unsere Stadt liegt an den Ufern des Flusses Dender, die in Ath entspringt und nach 65 km in Dendermonde in die Schlede mündet.',
+        'who': 'Für wen?',
+        'who-sub': 'Das Jamborette ist gedacht für Jungen und Mädchen von 14 bis 18 Jahren – natürlich begleitet durch ihre Gruppenleiter.',
         //ACTIVITIES
-        'activities-sub':'Ein kleines Übersicht von alle tolle Aktivitäten während das Jamborette.',
-        'timeline':'img/timeline/timeline-de.png',
+        'activities-sub': 'Ein kleines Übersicht von alle tolle Aktivitäten während das Jamborette.',
+        'timeline': 'img/timeline/timeline-de.png',
         //ORGANISATION
-        'organisation-sub':'In diese Sektion finden Sie die verschiedene Komitees und ihr Haupt, Sie arbeiten zusammen mit nur ein ziel: Jamborette 2020 ein unvergeßliche Erfahrung! Fragen? Interessiert? Wir sind nur eine Email entfernt!',
-        'communication':'Kommunikation',
-        'program':'Programm',
-        'logistics':'Logistik',
-        'security':'Sicherheit',
-        'social-media':'Sozialen Medien',
-        'kitchen':'Küche',
-        'events':'Events',
+        'organisation-sub': 'In diese Sektion finden Sie die verschiedene Komitees und ihr Haupt, Sie arbeiten zusammen mit nur ein ziel: Jamborette 2020 ein unvergeßliche Erfahrung! Fragen? Interessiert? Wir sind nur eine Email entfernt!',
+        'communication': 'Kommunikation',
+        'program': 'Programm',
+        'logistics': 'Logistik',
+        'security': 'Sicherheit',
+        'social-media': 'Sozialen Medien',
+        'kitchen': 'Küche',
+        'events': 'Events',
         //INTERESTED
-        'interested-sub':'Zögert nicht, Kontakt mit uns aufzunehmen, wenn ihr Interesse oder Fragen habt. Wir freuen uns, euch mehr Informationen zu geben.',
-        'pricing':'Preis?',
-        'pricing-sub':'Der Preis für das Camp ist abhängig von eurem Herkunftsland und wir versuchen so gut wie möglich beim Preis für das Camp entgegen zu kommen, falls ihr teure Flugtickets habt. Dafür nutzen wir ein ähnliches System wie das Jamboree Team. Unser Ziel ist es, jedem eine Chance zu geben, dies unvergessliche Reise zu erleben. Wir können noch keine sichere Auskunft über den endgültigen Preis geben, da wir noch mit der Kontaktaufnahme zu Partnern und mit der Planung von Aktivitäten beschäftigt sind. Dennoch können wir euch schon eine erste Einschätzung von 250 € geben. Für Nicht-EU-Bürger, die bereits eine Menge Geld für Flugtickets ausgeben, haben wir eine Preisstaffelung eingerichtet:',
-        'plane-ticket':'Preis Flugticket',
-        'campprice':'Preis Camp',
-        'benefit':'Um von diese Staffelung profitieren zu können, muss das billigste Flugticket gekauft werden.',
-        'registration':'Anmeldung',
+        'interested-sub': 'Zögert nicht, Kontakt mit uns aufzunehmen, wenn ihr Interesse oder Fragen habt. Wir freuen uns, euch mehr Informationen zu geben.',
+        'pricing': 'Preis?',
+        'pricing-sub': 'Der Preis für das Camp ist abhängig von eurem Herkunftsland und wir versuchen so gut wie möglich beim Preis für das Camp entgegen zu kommen, falls ihr teure Flugtickets habt. Dafür nutzen wir ein ähnliches System wie das Jamboree Team. Unser Ziel ist es, jedem eine Chance zu geben, dies unvergessliche Reise zu erleben. Wir können noch keine sichere Auskunft über den endgültigen Preis geben, da wir noch mit der Kontaktaufnahme zu Partnern und mit der Planung von Aktivitäten beschäftigt sind. Dennoch können wir euch schon eine erste Einschätzung von 250 € geben. Für Nicht-EU-Bürger, die bereits eine Menge Geld für Flugtickets ausgeben, haben wir eine Preisstaffelung eingerichtet:',
+        'plane-ticket': 'Preis Flugticket',
+        'campprice': 'Preis Camp',
+        'benefit': 'Um von diese Staffelung profitieren zu können, muss das billigste Flugticket gekauft werden.',
+        'registration': 'Anmeldung',
         //PICTURES
-        'pictures':'FOTO’S',
-        'photo-1994':'Bilder finden aus 1994 ist schwieriger als wir gedacht haben. Aber ein Scout verzicht nicht!',
-        'photo-2010':'',
-        'photo-2020':'Hier finden Sie die Bilder von unsere Jamborette 2020. Bald.',
-        'close-gallery':'Galerie schließen',
+        'pictures': 'FOTO’S',
+        'photo-1994': 'Bilder finden aus 1994 ist schwieriger als wir gedacht haben. Aber ein Scout verzicht nicht!',
+        'photo-2010': '',
+        'photo-2020': 'Hier finden Sie die Bilder von unsere Jamborette 2020. Bald.',
+        'close-gallery': 'Galerie schließen',
         //NEWSFEED
-        'newsfeed-sub':'Bleiben Sie dran mit die neuesten Entwicklungen.',
-        'paper':'Jamborette 2020 in die Zeitung.',
-        'who-coming':'Wer kommt?',
+        'newsfeed-sub': 'Bleiben Sie dran mit die neuesten Entwicklungen.',
+        'paper': 'Jamborette 2020 in die Zeitung.',
+        'who-coming': 'Wer kommt?',
         //CONTACT
-        'contact-us':'KONTAKTIERE UNS',
-        'contact-sub':'KONTAKTIERE UNS FALLS SIE FRAGEN HABEN!',
-        'send-message':'Bericht schicken',
+        'contact-us': 'KONTAKTIERE UNS',
+        'contact-sub': 'KONTAKTIERE UNS FALLS SIE FRAGEN HABEN!',
+        'send-message': 'Bericht schicken',
     },
     es: {
         'history': '',
@@ -177,7 +187,11 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
+<<<<<<< HEAD
         'timeline':'img/timeline/timeline-es.png',
+=======
+        'timeline': 'img/timeline/timeline-en.png',
+>>>>>>> 3f23a1b5a7aec22072b6ca687e2f5610c557a4f7
         //ORGANISATION
         'organisation-sub': '',
         'communication':'',
@@ -247,7 +261,11 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
+<<<<<<< HEAD
         'timeline':'img/timeline/timeline-fr.png',
+=======
+        'timeline': 'img/timeline/timeline-en.png',
+>>>>>>> 3f23a1b5a7aec22072b6ca687e2f5610c557a4f7
         //ORGANISATION
         'organisation-sub': '',
         'communication':'',
@@ -316,8 +334,13 @@ const languages = {
         'who': 'Chi?',
         'who-sub': 'Jamborette 2020 organizza un campo per esploratori ed esploratrici da quattordici anni a diciotto anni, accompagnato dai loro capi (ovviamente).',
         //ACTIVITIES
+<<<<<<< HEAD
         'activities-sub': 'Qui si trova qualche esempio di attività che succederanno durante il Jamborette.',
         'timeline':'img/timeline/timeline-it.png',
+=======
+        'activities-sub': '',
+        'timeline': 'img/timeline/timeline-en.png',
+>>>>>>> 3f23a1b5a7aec22072b6ca687e2f5610c557a4f7
         //ORGANISATION
         'organisation-sub': 'Qui può trovare la nostra amministrazione ambiziosa. Siamo sempre pronti per rispondere a tutte le vostre domande.',
         'communication':'Communication',
@@ -386,8 +409,13 @@ const languages = {
         'who': 'Wie?',
         'who-sub': 'Jamborette 2020 verwelkomt graag jongens en meisjes van 14 tot 18 jaar oud, uiteraard vergezeld door hun leiders.',
         //ACTIVITIES
+<<<<<<< HEAD
         'activities-sub': 'Een kort overzicht van enkele van de activiteiten die van deze Jamborette een unieke ervaring zullen maken.',
         'timeline':'img/timeline/timeline-nl.png',
+=======
+        'activities-sub': '',
+        'timeline': 'img/timeline/timeline-en.png',
+>>>>>>> 3f23a1b5a7aec22072b6ca687e2f5610c557a4f7
         //ORGANISATION
         'organisation-sub': 'Hier kan u het ambitieuze team vinden dat zijn schouders onder het grootste Jamborette 2020-project zet. We zijn steeds bereikbaar voor al uw vragen!',
         'communication':'Communicatie',
@@ -457,7 +485,7 @@ const languages = {
         'who-sub': '',
         //ACTIVITIES
         'activities-sub': '',
-        'timeline':'img/timeline/timeline-en.png',
+        'timeline': 'img/timeline/timeline-en.png',
         //ORGANISATION
         'organisation-sub': '',
         //INTERESTED
