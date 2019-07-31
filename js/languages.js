@@ -6,6 +6,7 @@ function loadLanguage(lang) {
 
 const languages = {
     en: {
+        //NAVIGATION
         'history': 'history',
         'information': 'information',
         'activities': 'activities ',
@@ -14,6 +15,7 @@ const languages = {
         'pictures': 'pictures',
         'newsfeed': 'newsfeed',
         'contact': 'contact ',
+        //HISTORY
         'brief-history':'',
         'brief-history-sub':'',
         'humble':'',
@@ -24,6 +26,7 @@ const languages = {
         'timeline-3':'',
         '100-years':'',
         'timeline-4':'',
+        //INFORMATION
         'when':'',
         'when-sub':'',
         'what':'',
@@ -38,8 +41,11 @@ const languages = {
         'cities-sub':'',
         'who':'',
         'who-sub':'',
+        //ACTIVITIES
         'activities-sub':'',
+        //ORGANISATION
         'organisation-sub':'',
+        //INTERESTED
         'interested-sub':'',
         'pricing':'',
         'pricing-sub':'',
@@ -47,17 +53,20 @@ const languages = {
         'campprice':'',
         'benefit':'',
         'registration':'',
+        //PICTURES
         'pictures':'',
-        'newsfeed-sub':'',
-        'paper':'',
-        'who-coming':'',
-        'contact-us':'',
-        'contact-sub':'',
-        'send-message':'',
         'photo-1994':'',
         'photo-2010':'',
         'photo-2020':'',
-        'close-gallery':''
+        'close-gallery':'',
+        //NEWSFEED
+        'newsfeed-sub':'',
+        'paper':'',
+        'who-coming':'',
+        //CONTACT
+        'contact-us':'',
+        'contact-sub':'',
+        'send-message':'',
     },
     de: {
         'history': 'GESCHICHTE',
@@ -68,7 +77,7 @@ const languages = {
         'pictures': 'FOTO’S',
         'newsfeed': 'Nachrichtenüberblick',
         'contact': 'KONTAKT ',
-        'contact': 'contact ',
+        //HISTORY
         'brief-history':'',
         'brief-history-sub':'',
         'humble':'',
@@ -79,6 +88,7 @@ const languages = {
         'timeline-3':'',
         '100-years':'',
         'timeline-4':'',
+        //INFORMATION
         'when':'',
         'when-sub':'',
         'what':'',
@@ -93,8 +103,11 @@ const languages = {
         'cities-sub':'',
         'who':'',
         'who-sub':'',
+        //ACTIVITIES
         'activities-sub':'',
+        //ORGANISATION
         'organisation-sub':'',
+        //INTERESTED
         'interested-sub':'',
         'pricing':'',
         'pricing-sub':'',
@@ -102,17 +115,20 @@ const languages = {
         'campprice':'',
         'benefit':'',
         'registration':'',
+        //PICTURES
         'pictures':'',
-        'newsfeed-sub':'',
-        'paper':'',
-        'who-coming':'',
-        'contact-us':'',
-        'contact-sub':'',
-        'send-message':'',
         'photo-1994':'',
         'photo-2010':'',
         'photo-2020':'',
-        'close-gallery':''
+        'close-gallery':'',
+        //NEWSFEED
+        'newsfeed-sub':'',
+        'paper':'',
+        'who-coming':'',
+        //CONTACT
+        'contact-us':'',
+        'contact-sub':'',
+        'send-message':'',
     },
     es: {
         'history': '',
@@ -122,8 +138,8 @@ const languages = {
         'interested': '',
         'pictures': '',
         'newsfeed': '',
-        'contact': '',
         'contact': 'contact ',
+        //HISTORY
         'brief-history':'',
         'brief-history-sub':'',
         'humble':'',
@@ -134,6 +150,7 @@ const languages = {
         'timeline-3':'',
         '100-years':'',
         'timeline-4':'',
+        //INFORMATION
         'when':'',
         'when-sub':'',
         'what':'',
@@ -148,8 +165,11 @@ const languages = {
         'cities-sub':'',
         'who':'',
         'who-sub':'',
+        //ACTIVITIES
         'activities-sub':'',
+        //ORGANISATION
         'organisation-sub':'',
+        //INTERESTED
         'interested-sub':'',
         'pricing':'',
         'pricing-sub':'',
@@ -157,17 +177,20 @@ const languages = {
         'campprice':'',
         'benefit':'',
         'registration':'',
+        //PICTURES
         'pictures':'',
-        'newsfeed-sub':'',
-        'paper':'',
-        'who-coming':'',
-        'contact-us':'',
-        'contact-sub':'',
-        'send-message':'',
         'photo-1994':'',
         'photo-2010':'',
         'photo-2020':'',
-        'close-gallery':''
+        'close-gallery':'',
+        //NEWSFEED
+        'newsfeed-sub':'',
+        'paper':'',
+        'who-coming':'',
+        //CONTACT
+        'contact-us':'',
+        'contact-sub':'',
+        'send-message':'',
     },
     fr: {
         'history': '',
@@ -177,8 +200,8 @@ const languages = {
         'interested': '',
         'pictures': '',
         'newsfeed': '',
-        'contact': '',
         'contact': 'contact ',
+        //HISTORY
         'brief-history':'',
         'brief-history-sub':'',
         'humble':'',
@@ -189,6 +212,7 @@ const languages = {
         'timeline-3':'',
         '100-years':'',
         'timeline-4':'',
+        //INFORMATION
         'when':'',
         'when-sub':'',
         'what':'',
@@ -203,8 +227,11 @@ const languages = {
         'cities-sub':'',
         'who':'',
         'who-sub':'',
+        //ACTIVITIES
         'activities-sub':'',
+        //ORGANISATION
         'organisation-sub':'',
+        //INTERESTED
         'interested-sub':'',
         'pricing':'',
         'pricing-sub':'',
@@ -212,17 +239,20 @@ const languages = {
         'campprice':'',
         'benefit':'',
         'registration':'',
+        //PICTURES
         'pictures':'',
-        'newsfeed-sub':'',
-        'paper':'',
-        'who-coming':'',
-        'contact-us':'',
-        'contact-sub':'',
-        'send-message':'',
         'photo-1994':'',
         'photo-2010':'',
         'photo-2020':'',
-        'close-gallery':''
+        'close-gallery':'',
+        //NEWSFEED
+        'newsfeed-sub':'',
+        'paper':'',
+        'who-coming':'',
+        //CONTACT
+        'contact-us':'',
+        'contact-sub':'',
+        'send-message':'',
     },
     it: {
         'history': 'STORIA',
@@ -232,8 +262,8 @@ const languages = {
         'interested': 'INTERESSATO?',
         'pictures': 'IMMAGINI',
         'newsfeed': 'NOTIZIE',
-        'contact': 'CONTATTACI',
         'contact': 'contact ',
+        //HISTORY
         'brief-history':'',
         'brief-history-sub':'',
         'humble':'',
@@ -244,6 +274,7 @@ const languages = {
         'timeline-3':'',
         '100-years':'',
         'timeline-4':'',
+        //INFORMATION
         'when':'',
         'when-sub':'',
         'what':'',
@@ -258,8 +289,11 @@ const languages = {
         'cities-sub':'',
         'who':'',
         'who-sub':'',
+        //ACTIVITIES
         'activities-sub':'',
+        //ORGANISATION
         'organisation-sub':'',
+        //INTERESTED
         'interested-sub':'',
         'pricing':'',
         'pricing-sub':'',
@@ -267,18 +301,20 @@ const languages = {
         'campprice':'',
         'benefit':'',
         'registration':'',
+        //PICTURES
         'pictures':'',
-        'newsfeed-sub':'',
-        'paper':'',
-        'who-coming':'',
-        'contact-us':'',
-        'contact-sub':'',
-        'send-message':'',
         'photo-1994':'',
         'photo-2010':'',
         'photo-2020':'',
-        'close-gallery':''
-
+        'close-gallery':'',
+        //NEWSFEED
+        'newsfeed-sub':'',
+        'paper':'',
+        'who-coming':'',
+        //CONTACT
+        'contact-us':'',
+        'contact-sub':'',
+        'send-message':'',
     },
     nl: {
         'history': 'Geschiedenis',
@@ -288,8 +324,8 @@ const languages = {
         'interested': 'Interesse?',
         'pictures': 'FOTO’S',
         'newsfeed': 'Nieuwsoverzicht',
-        'contact': 'Contact',
         'contact': 'contact ',
+        //HISTORY
         'brief-history':'',
         'brief-history-sub':'',
         'humble':'',
@@ -300,6 +336,7 @@ const languages = {
         'timeline-3':'',
         '100-years':'',
         'timeline-4':'',
+        //INFORMATION
         'when':'',
         'when-sub':'',
         'what':'',
@@ -314,8 +351,11 @@ const languages = {
         'cities-sub':'',
         'who':'',
         'who-sub':'',
+        //ACTIVITIES
         'activities-sub':'',
+        //ORGANISATION
         'organisation-sub':'',
+        //INTERESTED
         'interested-sub':'',
         'pricing':'',
         'pricing-sub':'',
@@ -323,17 +363,20 @@ const languages = {
         'campprice':'',
         'benefit':'',
         'registration':'',
+        //PICTURES
         'pictures':'',
-        'newsfeed-sub':'',
-        'paper':'',
-        'who-coming':'',
-        'contact-us':'',
-        'contact-sub':'',
-        'send-message':'',
         'photo-1994':'',
         'photo-2010':'',
         'photo-2020':'',
-        'close-gallery':''
+        'close-gallery':'',
+        //NEWSFEED
+        'newsfeed-sub':'',
+        'paper':'',
+        'who-coming':'',
+        //CONTACT
+        'contact-us':'',
+        'contact-sub':'',
+        'send-message':'',
     },
     no: {
         'history': '',
@@ -343,8 +386,8 @@ const languages = {
         'interested': '',
         'pictures': '',
         'newsfeed': '',
-        'contact': '',
         'contact': 'contact ',
+        //HISTORY
         'brief-history':'',
         'brief-history-sub':'',
         'humble':'',
@@ -355,6 +398,7 @@ const languages = {
         'timeline-3':'',
         '100-years':'',
         'timeline-4':'',
+        //INFORMATION
         'when':'',
         'when-sub':'',
         'what':'',
@@ -369,8 +413,11 @@ const languages = {
         'cities-sub':'',
         'who':'',
         'who-sub':'',
+        //ACTIVITIES
         'activities-sub':'',
+        //ORGANISATION
         'organisation-sub':'',
+        //INTERESTED
         'interested-sub':'',
         'pricing':'',
         'pricing-sub':'',
@@ -378,17 +425,20 @@ const languages = {
         'campprice':'',
         'benefit':'',
         'registration':'',
+        //PICTURES
         'pictures':'',
-        'newsfeed-sub':'',
-        'paper':'',
-        'who-coming':'',
-        'contact-us':'',
-        'contact-sub':'',
-        'send-message':'',
         'photo-1994':'',
         'photo-2010':'',
         'photo-2020':'',
-        'close-gallery':''
+        'close-gallery':'',
+        //NEWSFEED
+        'newsfeed-sub':'',
+        'paper':'',
+        'who-coming':'',
+        //CONTACT
+        'contact-us':'',
+        'contact-sub':'',
+        'send-message':'',
     },
 };
 
