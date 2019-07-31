@@ -302,7 +302,7 @@ const languages = {
         //HISTORY
         'brief-history': 'UNA BREVE STORIA',
         'brief-history-sub': 'Una breve storia della provenienza di questa tradizione',
-        'humble': 'la nostra nascita modesta',
+        'humble': 'La nostra nascita modesta',
         'timeline-1': 'Un giorno nell’anno 1919, un certo Karel Fransman ha ricevuto un libretto di un amico con le regole fondamentali di Baden-Powell Belgian Boy Scouts. Era affascinato dai principi di Scautismo e cosa questi potrebbero significare per i ragazzi di Ninove. Con l’aiuto della parrocchia locale (E.H.Corteville), Scouts Ninove viene nato nel 1920. Era una nascita modesta con un grande successo.',
         '75-years': '75 anni Scouts Ninove',
         'timeline-2': 'Nel 1994 Scouts Ninove ha celebrato il suo settantacinquesimo anniversario e non volevano celebrare da solo. Per questo hanno deciso di organizzare un campo mondiale per la prima volta, nella loro propria città, Ninove! Volevano la partecipazione di circa sei Paesi, Scouts Ninove era il solo gruppo belga pur di rimanere l’equilibrio. Alla fine quasi 260 esploratori di vari Paesi hanno partecipato al campo! Tra le varie nazionalità c’erano italiani, scozzesi, cechi, tedeschi e olandesi.Tutte le attività di quel campo avevano un tema: Recycling. C’era un ‘Greenteam’ che aveva come compito di insegnare agli altri come dovevano essere più sostenibile e come dovevano riciclare. Il campo era un grande successo, quindi hanno organizzato una seconda edizione.',
@@ -372,7 +372,7 @@ const languages = {
         //HISTORY
         'brief-history': 'EEN KORTE GESCHIEDENIS',
         'brief-history-sub': 'Een kort overzicht hoe deze traditie is ontstaan.',
-        'humble': 'ons bescheiden ontstaan',
+        'humble': 'Ons bescheiden ontstaan',
         'timeline-1': 'Op een zekere dag in het jaar 1919, kreeg een zekere Karel Fransman van een vriend een klein boekje met daarin de grondregels van de Baden-Powell Belgian Boy Scouts. Hij was enorm gefascineerd door de concepten van scouting en wat deze zouden kunnen betekenen voor de jongens in Ninove. Met de hulp van de lokale parochie, meerbepaald E.H. Corteville, werden de Scouts van Ninove geboren in 1920. Het was een bescheiden ontstaan van wat later een succesverhaal zou blijken.',
         '75-years': '75 jaar Scouts Ninove',
         'timeline-2': 'In het jaar 1994 blies de Scouts van Ninove 75 kaarsjes uit, en dat wilden ze liever niet alleen vieren. Daarom besloten ze voor het eerst een wereldkamp te organiseren, en dat in hun eigen thuisstad! Er werd gemikt op de deelname van een zestal landen, met Ninove als enige Belgische scouts- en gidsengroep, om het evenwicht tussen de verschillende nationaliteiten te bewaren. Uiteindelijk namen er een 260-tal scoutsleden van diverse landen deel aan het kamp! Onder de verschillende nationaliteiten bevonden er zich onder andere Nederlanders, Schotten, Tsjechen, Duitsers en Italianen. Het werd ook niet ‘zomaar’ een wereldkamp, want alle activiteiten stonden in het teken van een thema, namelijk ‘recycling’. Zo was er onder meer zelfs een volledig ‘Greenteam’ aanwezig met een voorbeeldfunctie voor alle andere kampgangers om correct en duurzaam met alle materiaal om te gaan. Het kamp werd een groot succes, en zou nog een vervolg kennen…',
