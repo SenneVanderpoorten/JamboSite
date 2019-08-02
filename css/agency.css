@@ -865,3 +865,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     -o-box-shadow: 0 0px 10px 1px rgba(255, 255, 255, 0.5);
     -ms-box-shadow: 0 0px 10px 1px rgba(255, 255, 255, 0.5);
 }
+ .price {
+     font-size: large;
+     font-weight: bolder;
+ }
