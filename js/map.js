@@ -29,6 +29,10 @@ $(document).ready(function showMap() {
                     {
                         "id": "HK",
                         "showAsSelected": true
+                    },
+                    {
+                        "id": "IL",
+                        "showAsSelected": true
                     }
                 ]
         },

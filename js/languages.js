@@ -272,7 +272,7 @@ const languages = {
         'timeline-4': 'En 2020, Scouting à Ninove va fêter leur centenaire. L’événement idéal pour organiser une troisième édition du  Jamborette. Un centenaire mérite d’être fêté d’une façon spéciale. Nous célébrons un mix de nos meilleures jours fériés. Nous espérons de vous accueillir ; comme participant ou visiteur de notre porte ouverte, le 25 Juillet 2020.',
         //INFORMATION
         'when': 'Quand ?',
-        'when-sub': 'Le Jamborette 2020 aura lieu du 28 juillet au 8 août 2020 à Ninove. ',
+        'when-sub': 'Le Jamborette 2020 aura lieu du 18 au 28 juillet 2020 à Ninove. ',
         'what': 'Quoi ? ',
         'what-sub': 'Il n’y a pas de place pour l’ennui pendant Jamborette 2020. Nous préparons beaucoup et diverses activités, par exemple : des jeux de groupe, des spectacles, un souper en groupe… \n' +
             'Nous planifions aussi des voyages aux plus belles villes de Belgique.',
