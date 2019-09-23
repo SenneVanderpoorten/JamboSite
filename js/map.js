@@ -33,6 +33,10 @@ $(document).ready(function showMap() {
                     {
                         "id": "IL",
                         "showAsSelected": true
+                    },
+                    {
+                        "id": "DZ",
+                        "showAsSelected": true
                     }
                 ]
         },
