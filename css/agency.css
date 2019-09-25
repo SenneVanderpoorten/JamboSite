@@ -898,4 +898,5 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin: 5px;
     background-color: #faab47;
     height: 4px;
+    border-radius: 25px;
 }
