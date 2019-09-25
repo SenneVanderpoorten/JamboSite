@@ -894,12 +894,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     font-weight: bold;
 }
 .underline{
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 2px;
-    border-color: #faab47 ;
+    border: 0;
+    margin: 5px;
+    background-color: #faab47;
+    height: 4px;
 }
