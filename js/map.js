@@ -4,7 +4,7 @@ $(document).ready(function showMap() {
         theme: "dark",
         projection: "miller",
         panEventsEnabled: true,
-        backgroundColor: "#fff",
+        backgroundColor: "#f8f9fa",
         backgroundAlpha: 1,
         zoomControl: {
             zoomControlEnabled: true
@@ -37,7 +37,11 @@ $(document).ready(function showMap() {
                     {
                         "id": "DZ",
                         "showAsSelected": true
-                    }
+                    },
+                    {
+                        "id": "UA",
+                        "showAsSelected": true
+                    },
                 ]
         },
         areasSettings: {

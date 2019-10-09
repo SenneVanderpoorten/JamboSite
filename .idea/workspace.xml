@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/faq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json-data/faq.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_DiskStation_Aug-01-1410-2019_Conflict.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/newsfeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/newsfeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-data/news.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,23 +41,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/json data" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\img\timeline" />
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\css" />
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\json data" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\js" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\css" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\vendor" />
       <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\it" />
-      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages\de" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\img\timeline" />
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\css" />
+      <recent name="C:\Users\Pieter\Google Drive\Scouts\JAMBO 2020\Comité Grafisch\Jambo Site\languages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,7 +129,11 @@
       <workItem from="1569242468211" duration="928000" />
       <workItem from="1569420387435" duration="43000" />
       <workItem from="1569420523568" duration="133000" />
-      <workItem from="1569420826059" duration="2791000" />
+      <workItem from="1569420826059" duration="3398000" />
+      <workItem from="1569593210138" duration="587000" />
+      <workItem from="1569593809317" duration="2001000" />
+      <workItem from="1570558008778" duration="4148000" />
+      <workItem from="1570608657005" duration="702000" />
     </task>
     <servers />
   </component>

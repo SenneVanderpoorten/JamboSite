@@ -1,12 +1,12 @@
 $(document).ready(function showNews() {
-    $.getJSON("news/news.json", function (data) {
-        let res = "<div class='news-table'>";
+    $.getJSON("json-data/news.json", function (data) {
+        let res = "<div>";
         $.each(data, function (key, value) {
             res += "<a href='" + value["link"] + "' target='_blank'>";
-            res += "<li class='table-row'>";
-            res += "<div class='col-8' style='font-style: italic'>" + value["titel"] + "</div>";
-            res += "<div class='col-2'>" + value["datum"] + "</div>";
-            res += "<div class='col-2'>" + value["krant"] + "</div>";
+            res += "<li class='table-row' style='list-style: none'>";
+            res += "<div class='col-7' style='font-style: italic'>" + value["titel"] + "</div>";
+            res += "<div class='col'>" + value["datum"] + "</div>";
+            res += "<div class='col'>" + value["krant"] + "</div>";
             res += "</li>";
             res += "</a>";
         });
