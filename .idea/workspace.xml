@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/faq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json-data/faq.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_DiskStation_Aug-01-1410-2019_Conflict.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/newsfeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/newsfeed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/json-data/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/faq.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +127,7 @@
       <workItem from="1569593210138" duration="587000" />
       <workItem from="1569593809317" duration="2001000" />
       <workItem from="1570558008778" duration="4148000" />
-      <workItem from="1570608657005" duration="702000" />
+      <workItem from="1570608657005" duration="2505000" />
     </task>
     <servers />
   </component>

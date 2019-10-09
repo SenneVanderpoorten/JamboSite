@@ -10,7 +10,7 @@ $(document).ready(function displayFAQ() {
             res += "</li>";
             res += "</a>";
         });
-        res += "</div>";
-        document.getElementById("newsTable").innerHTML = res;
-    });*/
+        res += "</div>";*/
+        document.getElementById("faqView").innerHTML = res;
+    });
 });
