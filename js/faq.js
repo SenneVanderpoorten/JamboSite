@@ -1,16 +1,31 @@
 $(document).ready(function displayFAQ() {
-/*    $.getJSON("json-data/faq.json", function (data) {
-        let res = "<div class='faq'>";
+    $.getJSON("json-data/faq.json", function (data) {
+        let res = "<div class='container inner-container align-content-center'>";
+
+        console.log(data);
+
+        res += "<div class='col'>";
+        res += "<div class='about-page-content testimonial-page'>";
+        res += "<div class='faq-content'>";
+        res += "<div class='panel-group' id='accordion' role='tablist' aria-multiselectable='true'>";
+
         $.each(data, function (key, value) {
-            res += "<a href='" + value["a"] + "' target='_blank'>";
-            res += "<li class='table-row'>";
-            res += "<div class='col-8' style='font-style: italic'>" + value["titel"] + "</div>";
-            res += "<div class='col-2'>" + value["datum"] + "</div>";
-            res += "<div class='col-2'>" + value["krant"] + "</div>";
-            res += "</li>";
-            res += "</a>";
+            res += "<div class='panel panel-default'>";
+            res += "<div class='panel-heading' role='tab'>";
+            res += "<h4 class='panel-title'>";
+            res += "<a role='button' data-toggle='collapse' data-parent='#accordion' href= '#faq" + value["index"] + "'>";
+            res += "<span>" + value["q"] + "</span></a></h4></div>";
+            res += "<div id='faq" + value["index"] + "' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='headingOne'>";
+            res += "<div class='panel-body'>" + value["a"] + "</div></div></div>";
         });
-        res += "</div>";*/
+        res += "</div>";
+        res += "</div>";
+        res += "</div>";
+        res += "</div>";
+        res += "</div>";
+
+        console.log(res);
+
         document.getElementById("faqView").innerHTML = res;
     });
 });

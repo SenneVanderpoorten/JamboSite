@@ -671,8 +671,8 @@
     <div class="row">
         <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase lang" key="newsfeed">FAQ</h2>
-            <h3 class="section-subheading text-muted lang" key="newsfeed-sub">Have some questions? Maybe you can find
-                the answer here!</h3>
+            <h3 class="section-subheading text-muted lang" key="newsfeed-sub">Questions? Maybe you can find
+                the answers here!</h3>
         </div>
     </div>
     <div id="faqView"></div>
@@ -962,6 +962,7 @@
     <script src="js/photoGallery.js"></script>
     <script src="js/newsfeed.js"></script>
     <script src="js/map.js"></script>
+    <script src="js/faq.js"></script>
     <script src="js/languages.js"></script>
     <script src="https://www.webglearth.com/v2/api.js"></script>
     <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
@@ -970,29 +971,38 @@
     <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <script type="text/javascript" src="js/flipclock.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            FlipClock.Lang.Custom = {days: 'Days', hours: 'Hours', minutes: 'Minutes', seconds: 'Seconds'};
-            let opts = {
-                clockFace: 'DailyCounter',
-                countdown: true,
-                language: 'Custom'
-            };
-            opts.classes = {
-                active: 'flip-clock-active',
-                before: 'flip-clock-before',
-                divider: 'flip-clock-divider',
-                dot: 'flip-clock-dot',
-                label: 'flip-clock-label',
-                flip: 'flip',
-                play: 'play',
-                wrapper: 'flip-clock-small-wrapper'
-            };
-            let countdown = 1595023200 - ((new Date().getTime()) / 1000); // from: 07/18/2020 12:00 am +0200
-            countdown = Math.max(1, countdown);
-            $('.clock-builder-output').FlipClock(countdown, opts);
-        });
-    </script>
 </scripts>
 </body>
 </html>
+
+<div class='container-fluid inner-container'>
+    <div class='col-md-12'>
+        <div class='about-page-content testimonial-page'>
+            <div class='faq-content'>
+                <div class='panel-group' id='accordion' role='tablist' aria-multiselectable='true'>
+                    <div class='panel panel-default'>
+                        <div class='panel-heading' role='tab'><h4 class='panel-title'><a role='button'
+                                                                                         data-toggle='collapse'
+                                                                                         data-parent='#accordion'
+                                                                                         href='#faq1'><span>Vraag 1?</span></a>
+                        </h4>
+                        </div>
+                        <div id='#faq1' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='headingOne'>
+                            <div class='panel-body'>Antwoord 1.</div>
+                        </div>
+                    </div>
+                    <div class='panel panel-default'>
+                        <div class='panel-heading' role='tab'><h4 class='panel-title'><a role='button'
+                                                                                         data-toggle='collapse'
+                                                                                         data-parent='#accordion'
+                                                                                         href='#faq2'><span>Vraag 2?</span></a>
+                        </h4></div>
+                        <div id='#faq2' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='headingOne'>
+                            <div class='panel-body'>Antwoord 2.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
