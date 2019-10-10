@@ -1,7 +1,7 @@
 function loadLanguage(lang) {
     $('.lang').each(function (index, element) {
         $(this).text(languages[lang][$(this).attr('key')]);
-    })
+    });
     $('.activitiesTimeline').attr("src", languages[lang].timeline);
     $('#name').attr("placeholder", languages[lang].name);
     $('#email').attr("placeholder", languages[lang].email);

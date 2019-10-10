@@ -13,7 +13,7 @@ $(document).ready(function displayFAQ() {
             res += "<div class='panel panel-default'>";
             res += "<div class='panel-heading' role='tab'>";
             res += "<h4 class='panel-title'>";
-            res += "<a role='button' data-toggle='collapse' data-parent='#accordion' href= '#faq" + value["index"] + "'>";
+            res += "<a role='button' data-toggle='collapse' data-parent='#accordion' class='collapsed' href= '#faq" + value["index"] + "'>";
             res += "<span>" + value["q"] + "</span></a></h4></div>";
             res += "<div id='faq" + value["index"] + "' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='headingOne'>";
             res += "<div class='panel-body'>" + value["a"] + "</div></div></div>";
