@@ -180,7 +180,7 @@ header.languages {
 }
 
 .service-heading {
-    margin: 15px 0;
+    margin: 5px 0;
     text-transform: none
 }
 
@@ -916,15 +916,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin-right: 1em;
     margin-left: 10px;
     color: #fff;
-    font-size: 13px;
     font-weight: 300;
     display: inline-block;
     width: 20px;
     height: 20px;
     line-height: 20px;
-
     border-radius: 50%;
     text-align: center;
+    align-items: center;
     font-size: 10px;
     background: #ff9900;
 }
@@ -999,4 +998,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .faq-content .panel-body {
     border: 1px solid #f3f3f3;
+}
+
+.info-text-block{
+    margin-bottom: 40px;
 }
