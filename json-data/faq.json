@@ -1,12 +1,42 @@
 [
   {
     "index": 1,
-    "q": "Vraag 1?",
-    "a": "Antwoord 1."
+    "q": "Does Jamborette 2020 have an IST (International Service Team) and what’s their camp fee?",
+    "a": "There’s no IST, because Jamborette 2020 is not as huge as Jamboree (but really cosy). The activities and excursions will be guided by the Boy and Girls Scouts Ninove. Of course, for some activities we’ll need help of some participants, but the camp fee stays the same. \nEverybody is a participant and we provide everything! "
   },
   {
     "index": 2,
-    "q": "Vraag 2?",
-    "a": "Antwoord 2."
+    "q": "What is the expected date of arrival and departure date of participants?",
+    "a": "Jamborette 2020 starts on July 18, 2020, around 3pm. (at this time, all the participants should be on the campsite) Depending on the schedule of flights, groups can start arriving in Belgium from a week before the start of the camp and leave a week after the camp. For groups in this situation, we provide home hospitality (host families in and around Ninove). For more information about home hospitality, just ask your Jamborette 2020-spokesperson. "
+  },
+  {
+    "index": 3,
+    "q": "Will there be a host waiting for the participants at the airport? ",
+    "a": "Yes, we are kind people and would love to welcome you at the airport. Our team will welcome you with a smile to our small but wonderful country. The transfer from the airport to (a host family or) the campsite is provided in the camp fee."
+  },
+  {
+    "index": 4,
+    "q": "What is the exact camp fee for participants and what is included?",
+    "a": "The exact fee depends on the price of the plane ticket. Plane ticket has to be paid by yourself. If desired, organizations from your home-country can be contacted to negotiate an intervention.\n\nThe following is included in the camp fee:\nStay of 10 days on the camp site and with host families before and after the camp for a period agreed in advance\nthe use of all materials like tents, cooking utensils, etc. \nParticipation in all activities\n3 meals a day (more information about meals / catering see point 8.)\n"
+  },
+  {
+    "index": 5,
+    "q": "What is the registration deadline?",
+    "a": "A target number of 500 participants is set and once this is achieved, registrations close. This means that we cannot set a real deadline yet, it will depend on how quickly registrations arrive."
+  },
+  {
+    "index": 6,
+    "q": "Does material have to be taken besides sleeping comfort and other personal material?",
+    "a": "No, only sleeping equipment and personal items must be taken. Tents, all cooking utensils, tents, and lashing materials (please read further on) are provided. A more detailed letter with supplies will be sent later on!"
+  },
+  {
+    "index": 7,
+    "q": "Catering during the camp?",
+    "a": "During the camp, meals will be provided by our Jamborette Fourage Committee. The catering includes the following:\n\n- breakfast: will be prepared for the participants per patrol\n- lunch: will be provided by the fourage (except for the x number of times that the participants have to cook themselves, which is an activity in itself, then only the ingredients will be provided to the participants, but they must prepare the dish themselves.)\n- supper: will be prepared and provided by the fourage.\n"
+  },
+  {
+    "index": 8,
+    "q": "Lashing material for participants?",
+    "a": "Lashing timber will be provided by our own Jamborette Logistics Committee, as well as lashing ropes. However, in case you want to use specific thick ropes, you will have to bring them by your own participating group to our campside."
   }
 ]

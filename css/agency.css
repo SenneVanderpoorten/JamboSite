@@ -923,15 +923,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     line-height: 20px;
     border-radius: 50%;
     text-align: center;
-    align-items: center;
-    font-size: 10px;
+    vertical-align: center;
+    font-size: 15px;
     background: #ff9900;
 }
 
 .faq-content #accordion .panel-title > a.accordion-toggle.collapsed::before, .faq-content #accordion a.collapsed[data-toggle="collapse"]::before {
     content: "+";
     color: #fff;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 300;
     background: #333;
 }
@@ -944,10 +944,15 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .faq-content .panel-heading {
     padding-left: 0px;
     border-radius: 0px !important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    vertical-align: middle;
 }
 
 .faq-content .panel-heading a {
-    text-decoration: none;
+    vertical-align: center;
 }
 
 .faq-content .panel {
@@ -955,6 +960,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .faq-content .panel-default {
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+}
+.faq-content .panel-group {
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .faq-content .panel-heading {
