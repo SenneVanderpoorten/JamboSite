@@ -916,7 +916,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin-right: 1em;
     margin-left: 10px;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -932,8 +932,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     content: "+";
     color: #fff;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     background: #333;
+}
+
+.panel-title {
+    margin-bottom: auto;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 16px;
+    color: inherit;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 
 .faq-content {
@@ -944,8 +956,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .faq-content .panel-heading {
     padding-left: 0px;
     border-radius: 0px !important;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-transform: uppercase;
     font-size: 15px;
     vertical-align: middle;
@@ -964,6 +976,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     border-width: 2px;
     border-style: solid;
 }
+
 .faq-content .panel-group {
     border-color: #fff;
     border-width: 2px;
@@ -1013,6 +1026,6 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     border: 1px solid #f3f3f3;
 }
 
-.info-text-block{
+.info-text-block {
     margin-bottom: 40px;
 }

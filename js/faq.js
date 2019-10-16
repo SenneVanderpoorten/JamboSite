@@ -11,9 +11,9 @@ $(document).ready(function displayFAQ() {
         $.each(data, function (key, value) {
             res += "<div class='panel-default'>";
             res += "<div class='panel-heading' role='tab'>";
-            res += "<h6 class='panel-title'>";
+            res += "<div class='panel-title'>";
             res += "<a  role='button' data-toggle='collapse' data-parent='#accordion' class='collapsed' href= '#faq" + value["index"] + "'>";
-            res += "<span>" + value["q"] + "</span></a></h6></div>";
+            res += "<span>" + value["q"] + "</span></a></div></div>";
             res += "<div id='faq" + value["index"] + "' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='headingOne'>";
             res += "<div class='panel-body'>" + value["a"] + "</div></div></div>";
         });
