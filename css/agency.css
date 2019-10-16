@@ -989,8 +989,9 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 .faq-content .panel-body {
-    font-size: 14px;
+    font-size: 15px;
     color: #666666;
+    padding: 10px;
 }
 
 .faq-select {
