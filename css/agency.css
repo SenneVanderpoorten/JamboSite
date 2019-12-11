@@ -1030,3 +1030,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .info-text-block {
     margin-bottom: 40px;
 }
+
+.soldout {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #bd2130;
+}
+
+.ohno {
+
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.ohno-subtext {
+    font-size: 20px;
+    font-weight: 300;
+}
