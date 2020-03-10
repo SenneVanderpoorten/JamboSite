@@ -15,6 +15,10 @@ $(document).ready(function showMap() {
             areas:
                 [
                     {
+                        "id": "AT",
+                        "showAsSelected": true
+                    },
+                    {
                         "id": "BE",
                         "showAsSelected": true
                     },
@@ -23,11 +27,31 @@ $(document).ready(function showMap() {
                         "showAsSelected": true
                     },
                     {
+                        "id": "ES",
+                        "showAsSelected": true
+                    },
+                    {
+                        "id": "UA",
+                        "showAsSelected": true
+                    },
+                    {
                         "id": "UY",
                         "showAsSelected": true
                     },
                     {
+                        "id": "SE",
+                        "showAsSelected": true
+                    },
+                    {
+                        "id": "FI",
+                        "showAsSelected": true
+                    },
+                    {
                         "id": "HK",
+                        "showAsSelected": true
+                    },
+                    {
+                        "id": "NL",
                         "showAsSelected": true
                     },
                     {
@@ -36,6 +60,10 @@ $(document).ready(function showMap() {
                     },
                     {
                         "id": "DZ",
+                        "showAsSelected": true
+                    },
+                    {
+                        "id": "TZ",
                         "showAsSelected": true
                     },
                     {
