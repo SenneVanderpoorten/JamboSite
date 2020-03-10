@@ -1029,6 +1029,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .info-text-block {
     margin-bottom: 40px;
+    vertical-align: middle;
 }
 
 .soldout {
