@@ -21,5 +21,12 @@
     <orderEntry type="library" name="map" level="application" />
     <orderEntry type="library" name="photoGallery" level="application" />
     <orderEntry type="library" name="newsfeed" level="application" />
+    <orderEntry type="library" name="mdb" level="application" />
+    <orderEntry type="library" name="worldHigh" level="application" />
+    <orderEntry type="library" name="ammap" level="application" />
+    <orderEntry type="library" name="api" level="application" />
+    <orderEntry type="library" name="platform" level="application" />
+    <orderEntry type="library" name="dark" level="application" />
+    <orderEntry type="library" name="jquery-3.4.1.slim" level="application" />
   </component>
 </module>
