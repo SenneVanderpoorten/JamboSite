@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +12,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
               <caret line="1056" column="15" lean-forward="true" selection-start-line="1056" selection-start-column="15" selection-end-line="1056" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="1024" column="10" lean-forward="true" selection-start-line="1024" selection-start-column="10" selection-end-line="1024" selection-end-column="10" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#30785#33427#0" />
+                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/payment.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/agency.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -211,12 +240,12 @@
       <workItem from="1583918374619" duration="12879000" />
       <workItem from="1584025069253" duration="7706000" />
       <workItem from="1584113895489" duration="63000" />
-      <workItem from="1584117921500" duration="7098000" />
+      <workItem from="1584117921500" duration="8664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7098000" />
+    <option name="totallyTimeSpent" value="8664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,11 +327,22 @@
     <entry file="file://$PROJECT_DIR$/img/logos/utensils.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="1056" column="15" lean-forward="true" selection-start-line="1056" selection-start-column="15" selection-end-line="1056" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+        <state relative-caret-position="379">
+          <caret line="1024" column="10" lean-forward="true" selection-start-line="1024" selection-start-column="10" selection-end-line="1024" selection-end-column="10" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -310,27 +350,18 @@
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#30587#33229#0" />
+            <element signature="e#30785#33427#0" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#42320#42327#1" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="1056" column="15" lean-forward="true" selection-start-line="1056" selection-start-column="15" selection-end-line="1056" selection-end-column="15" />
         </state>
       </provider>
     </entry>

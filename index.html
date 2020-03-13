@@ -832,8 +832,7 @@
     </div>
 </div>
 
-<!-- PAYMENT OPENTENTENDAG MODAL -->
-
+<!-- FLOAT TOAST OPENTENTENDAG -->
 <div class="toast float-modal" role="alert" aria-live="assertive" aria-atomic="true" id="paymentToast" data-autohide="false" >
     <button type="button" class="ml-2 mb-1 close" aria-label="Close" id="closeToast" onclick="closeToast()" style="cursor: pointer">
         <span aria-hidden="true">&times;</span>
@@ -848,11 +847,23 @@
             Schrijf je hier in om te genieten van een heerlijke barbecue op onze Opententendag.
         </div>
         <!--<button class="toast-button">Inschrijven</button>-->
-        <button type="button" class="btn btn-warning toast-button">Schrijf je nu in</button>
+        <button type="button" class="btn btn-warning toast-button" data-toggle="modal" data-target="#StripeModal">Schrijf je nu in</button>
     </div>
 </div>
 
-
+<!-- STRIPE MODAL OPENTENTENDAG-->
+<div class="modal fade" id="StripeModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>This is a large modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- MODALS -->
 <!-- Portfolio Modal 1 -->
@@ -1007,7 +1018,7 @@
     <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <script type="text/javascript" src="js/flipclock.js"></script>
-
+    <script src="https://js.stripe.com/v3/"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
