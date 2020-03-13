@@ -1054,30 +1054,52 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .float-modal{
     background-color: #558b2f;
+    width: 20%;
     position: fixed;
     padding: 10px;
-    top: 15%;
+    bottom: 9%;
     right: 25px;
     left: auto;
-    bottom:auto;
+    top:auto;
     border-radius: 15px;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
+}
+
+.toast-icon{
+    height: 15%;
+    width: 15%;
+    /* Other styles here */
 }
 .toast-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
     justify-content: center;
 }
 .toast-header{
-    font-size: large;
+    display: flex;
+    font-size: xx-large;
+    color: #f3f3f3;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    line-height: 110%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .toast-body{
     font-size: medium;
+    color: #f3f3f3;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
 }
-.fade {
-    transition-duration: 2s;
+.toast-button {
+    margin-top: 20px;
+    border: 2px solid #faab47;
+    background-color: #faab47 ;
+    padding: 5px 10px;
+    color: #f3f3f3;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    cursor: pointer;
 }
