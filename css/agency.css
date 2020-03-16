@@ -1103,3 +1103,59 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     font-size: 25px;
     cursor: pointer;
 }
+.payform{
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+}
+.payform-text{
+    font-size: medium;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.shopping-cart{
+    flex-direction: column;
+    margin: auto;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+.cart-line{
+    border-top: 2px #faab47;
+}
+
+.cart-item{
+    margin: 5px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+}
+
+.cart-quantity {
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.cart-quantity input {
+    -webkit-appearance: none;
+    border: none;
+    width: 30px;
+    text-align: center;
+    color: #43484D;
+}
+
+.cart-button {
+    margin-top: 20px;
+    background-color: #faab47 ;
+    padding: 5px 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    cursor: pointer;
+}

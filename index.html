@@ -851,15 +851,43 @@
     </div>
 </div>
 
-<!-- STRIPE MODAL OPENTENTENDAG-->
+<!-- PAYMENT MODAL OPENTENTENDAG-->
 <div class="modal fade" id="StripeModal" role="dialog">
     <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-body">
-                <p>This is a large modal.</p>
+        <div class="modal-content payform">
+            <img class="toast-icon" src="img/logos/utensils_black.png"/>
+            <div class="modal-body payform-text">
+                <p>Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor onze Opententendag. Een dag voor jong en oud, boordevol activiteiten op het kampterrein. Geniet van de zomer samen met 500 binnen- en buitenlandse scouts van optredens, activiteiten en spelletjes. Ook voorzien we de mogelijkheid om te genieten van een heerlijke barbecue. </p>
+            </div>
+            <div class="shopping-cart">
+                <div class="cart-item">
+                    <div class="cart-description">
+                        <span>BBQ Volwassene (3 stukken vlees)</span>
+                    </div>
+                    <div class="cart-quantity">
+                        <button class="plus-btn" type="button" name="button">
+                            <img src="plus.svg" alt="" />
+                        </button>
+                        <input type="text" name="name" value="1">
+                        <button class="minus-btn" type="button" name="button">
+                            <img src="minus.svg" alt="" />
+                        </button>
+                    </div>
+
+                    <div class="cart-total-price">$549</div>
+                </div>
+                <div class="cart-item">
+                    <div class="description">
+                        <span>BBQ Volwassene (3 stukken vlees)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body payform-text">
+                <p>*Indien jullie zoon of docher deelneemt aan de jambo dienen jullie hiervoor geen portie te voorzien.</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-default cart-button">Betalen</button>
+                <button type="button" class="btn btn-default cart-button" data-dismiss="modal" style="background-color: #cfd8dc">Sluiten</button>
             </div>
         </div>
     </div>
