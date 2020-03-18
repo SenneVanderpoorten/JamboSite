@@ -1201,7 +1201,6 @@ input[type=number] {
     font-weight: 700;
     font-size: 20px;
     min-width: 30px;
-    padding: 5px;
     text-align: center;
 }
 
@@ -1212,4 +1211,16 @@ input[type=number] {
     align-items: center;
     -ms-flex-pack: end;
     justify-content: flex-end;
+}
+
+.transaction-footer{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-top: 1rem;
+    border-top: 1px solid #e9ecef;
+
 }
