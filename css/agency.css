@@ -1120,17 +1120,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     margin: auto;
     border-radius: 6px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .cart-line{
     border-top: 2px #faab47;
 }
 
 .cart-item{
+    justify-content: center;
     margin: 5px;
     padding: 10px 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -1160,12 +1160,12 @@ input[type=number] {
 }
 
 .cart-button {
-    margin-top: 20px;
     background-color: #faab47 ;
     padding: 5px 15px;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
     cursor: pointer;
+    margin: 5px;
 }
 
 /* Style buttons */
@@ -1201,8 +1201,10 @@ input[type=number] {
     font-weight: 700;
     font-size: 20px;
     min-width: 30px;
-    padding-top: 5px;
+    padding: 5px;
     text-align: center;
-    border-width: 1px;
-    border-top-style: solid;
+}
+
+.cart-footer{
+justify-content: flex-end;
 }

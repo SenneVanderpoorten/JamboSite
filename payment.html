@@ -36,6 +36,8 @@
         box-shadow: none;
     }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -49,73 +51,82 @@
 
             <div class="shopping-cart">
                 <div class="cart-item">
-                    <div class="cart-description col-7">
-                        <span>BBQ Volwassene (3 stukken vlees) aan €18</span>
+                    <div class="cart-description col-5">
+                        <span>BBQ Volwassene (3 stukken vlees)</span>
                     </div>
-
+                    <div class="cart-item-price col-2" >€18.00</div>
                     <div class="cart-quantity col-3">
                         <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input()">
+                            <button class=" minus-btn cart-btn" type="button" onclick="decrement_input('cart-count-18')">
                                 <i class="fas fa-minus-square cart-icon fa-lg"></i>
                             </button>
-                                <input type="number" class="cart-count" id="bbq-adult-amount" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input()">
-                            <i class="fas fa-plus-square cart-icon fa-lg"></i>
-                            </button>
+                            <input type="number" class=" cart-count" id="cart-count-18" name="cart-count-18" value="0" onchange="update_total()"/>
+                            <button class=" plus-btn cart-btn" type="button" name="button" onclick="increment_input('cart-count-18')">
+                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
+                            </button>-
+
                         </div>
                     </div>
-
-                    <div class="cart-item-price col-2">€0.00</div>
                 </div>
-
                 <div class="cart-item">
-                    <div class="cart-description col-7" >
-                        <span>BBQ Kind (2 stukken vlees) aan €14     </span>
+                    <div class="cart-description col-5" >
+                        <span>BBQ Kind (2 stukken vlees)</span>
                     </div>
+                    <div class="cart-item-price col-2">€14.00</div>
                     <div class="cart-quantity col-3">
                         <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input()">
+                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input('cart-count-14')" >
                                 <i class="fas fa-minus-square cart-icon fa-lg"></i>
                             </button>
-                            <input type="number" class="cart-count" id="bbq-kid-amount" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input()">
+                            <input type="number" class="cart-count" id="cart-count-14" name="input" value="0"/>
+                            <button id="plus-btn" class=" cart-btn" onclick="increment_input('cart-count-14')" >
                                 <i class="fas fa-plus-square cart-icon fa-lg"></i>
                             </button>
                         </div>
                     </div>
-                    <div class="cart-item-price col-2">€0.00</div>
-                </div>
 
+                </div>
                 <div class="cart-item">
-                    <div class="cart-description col-7">
-                        <span>BBQ Veggie (Halloumi) aan €18     </span>
+                    <div class="cart-description col-5">
+                        <span>Veggie Volwassene (Halloumi)</span>
                     </div>
+                    <div class="cart-item-price col-2">€18.00</div>
                     <div class="cart-quantity col-3">
                         <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input()">
+                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input('cart-count-veggie-18')" >
                                 <i class="fas fa-minus-square cart-icon fa-lg"></i>
                             </button>
-                            <input type="number" class="cart-count" id="bbq-veggie-amount" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input()">
+                            <input type="number" class="cart-count" id="cart-count-veggie-18" name="input" value="0"/>
+                            <button id="plus-btn" class=" cart-btn" onclick="increment_input('cart-count-veggie-18')">
                                 <i class="fas fa-plus-square cart-icon fa-lg"></i>
                             </button>
                         </div>
                     </div>
-                    <div class="cart-item-price col-2">€0.00</div>
                 </div>
                 <div class="cart-item">
-                    <div class="cart-description col-7">
-
+                    <div class="cart-description col-5">
+                        <span>Veggie Kind (Halloumi)</span>
                     </div>
+                    <div class="cart-item-price col-2">€14.00</div>
                     <div class="cart-quantity col-3">
-
+                        <div class="number">
+                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input('cart-count-veggie-14')" >
+                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
+                            </button>
+                            <input type="number" class="cart-count" id="cart-count-veggie-14" name="input" value="0"/>
+                            <button id="plus-btn" class=" cart-btn" onclick="increment_input('cart-count-veggie-14')">
+                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
+                            </button>
+                        </div>
                     </div>
-                    <div class="cart-total-price col-2">€0.00</div>
+
                 </div>
             <div class="modal-body payform-text">
                 <p>*Indien jullie zoon of docher deelneemt aan de jambo dienen jullie hiervoor geen portie te voorzien.</p>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer cart-footer row align-content-end">
+                <div class="cart-total-price col-2">TOTAAL</div>
+                <div class="cart-total-price col-2" id="cart-total">€0.00</div>
                 <button type="button" class="btn btn-default cart-button">Betalen</button>
                 <button type="button" class="btn btn-default cart-button" data-dismiss="modal" style="background-color: #cfd8dc">Sluiten</button>
             </div>
