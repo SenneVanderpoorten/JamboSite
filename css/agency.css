@@ -1206,5 +1206,10 @@ input[type=number] {
 }
 
 .cart-footer{
-justify-content: flex-end;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 }
