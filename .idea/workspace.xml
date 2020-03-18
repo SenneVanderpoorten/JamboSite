@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/payment.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/payment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="99" column="94" lean-forward="true" selection-start-line="99" selection-start-column="94" selection-end-line="99" selection-end-column="114" />
+            <state relative-caret-position="-406">
+              <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/payment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="509">
+              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
               <folding>
                 <element signature="n#!!block;n#closeToast#0" />
               </folding>
@@ -271,12 +269,12 @@
       <workItem from="1584266604904" duration="7084000" />
       <workItem from="1584375452475" duration="13303000" />
       <workItem from="1584439327216" duration="9478000" />
-      <workItem from="1584520519035" duration="544000" />
+      <workItem from="1584520519035" duration="1224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50142000" />
+    <option name="totallyTimeSpent" value="50822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,7 +370,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/payment.js</url>
-          <line>26</line>
+          <line>31</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -447,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/payment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="99" column="94" lean-forward="true" selection-start-line="99" selection-start-column="94" selection-end-line="99" selection-end-column="114" />
+        <state relative-caret-position="-406">
+          <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
@@ -461,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/payment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="509">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
           <folding>
             <element signature="n#!!block;n#closeToast#0" />
           </folding>

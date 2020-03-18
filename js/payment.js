@@ -23,17 +23,17 @@ function decrement_input(id) {
     update_total()
 }
 
+const formatter = new Intl.NumberFormat('be-BE', {
+    style: 'currency',
+    currency: 'EUR'
+})
+
 function update_total() {
     const bbq_adult_amount = parseInt(document.getElementById('cart-count-18').value);
     const bbq_kid_amount = parseInt(document.getElementById('cart-count-14').value);
     const veggie_adult_amount = parseInt(document.getElementById('cart-count-veggie-18').value);
     const veggie_kid_amount = parseInt(document.getElementById('cart-count-veggie-14').value);
-    const total_price = 
-    console.log('CART');
-    console.log('-----');
-    console.log('BBQ Adult: ', bbq_adult_amount);
-    console.log('BBQ Kid: ', bbq_kid_amount);
-    console.log('Veggie Adult: ', veggie_adult_amount);
-    console.log('Veggie Kid: ', veggie_kid_amount);
-    console.log('TOTAL: ', total_price);
+    const total_price = parseFloat(18*(bbq_adult_amount+veggie_adult_amount) + 14*(bbq_kid_amount+veggie_kid_amount));
+
+    document.getElementById('cart-total').innerHTML = formatter.format(total_price);
 }
