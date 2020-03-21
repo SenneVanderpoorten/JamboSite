@@ -1,9 +1,6 @@
 $(document).ready(function displayFAQ() {
     $.getJSON("json-data/faq.json", function (data) {
         let res = "<div class='container'>";
-
-        console.log(data);
-
         res += "<div class='col'>";
         res += "<div class='faq-content'>";
         res += "<div class='panel-group' id='accordion' role='tablist' aria-multiselectable='true'>";
@@ -22,8 +19,6 @@ $(document).ready(function displayFAQ() {
         res += "</div>";
         res += "</div>";
         res += "</div>";
-
-        console.log(res);
 
         document.getElementById("faqView").innerHTML = res;
     });

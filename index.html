@@ -833,109 +833,172 @@
 </div>
 
 <!-- FLOAT TOAST OPENTENTENDAG -->
-<div class="toast float-modal" role="alert" aria-live="assertive" aria-atomic="true" id="paymentToast" data-autohide="false" >
-    <button type="button" class="ml-2 mb-1 close" aria-label="Close" id="closeToast" onclick="closeToast()" style="cursor: pointer">
-        <span aria-hidden="true">&times;</span>
-    </button>
-    <div class="toast-content">
-        <img class="toast-icon" src="img/logos/utensils.png"/>
-        <div class="toast-header">
-            INSCHRIJVING BBQ <br> OPENTENTENDAG
+<!--<div class="toast float-modal" role="alert" aria-live="assertive" aria-atomic="true" id="paymentToast" data-autohide="false" >-->
+    <!--<button type="button" class="ml-2 mb-1 close" aria-label="Close" id="closeToast" onclick="closeToast()" style="cursor: pointer">-->
+        <!--<span aria-hidden="true">&times;</span>-->
+    <!--</button>-->
+    <!--<div class="toast-content">-->
+        <!--<img class="toast-icon" src="img/logos/utensils.png"/>-->
+        <!--<div class="toast-header">-->
+            <!--INSCHRIJVING BBQ <br> OPENTENTENDAG-->
+        <!--</div>-->
+        <!--<div class="toast-body">-->
+            <!--Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor het publiek.-->
+            <!--Schrijf je hier in om te genieten van een heerlijke barbecue op onze Opententendag.-->
+        <!--</div>-->
+        <!--&lt;!&ndash;<button class="toast-button">Inschrijven</button>&ndash;&gt;-->
+        <!--<button type="button" class="btn btn-warning toast-button" data-toggle="modal" data-target="#StripeModal">Schrijf je nu in</button>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!-- PAYMENT MODAL OPENTENTENDAG-->
+<!--<div class="modal fade" id="StripeModal" role="dialog">-->
+    <!--&lt;!&ndash; PAYMENT MODAL OPENTENTENDAG&ndash;&gt;-->
+    <!--<div class="modal-dialog modal-lg">-->
+        <!--<div class="modal-content payform">-->
+            <!--<div class="row modal-close" style="justify-content: flex-end">-->
+                <!--<button type="button" class="btn  cart-btn" data-dismiss="modal">-->
+                    <!--<i class="fas fa-times"></i>                </button>-->
+            <!--</div>-->
+            <!--<img class="toast-icon" src="img/logos/utensils_black.png"/>-->
+            <!--<div class="modal-body payform-text">-->
+                <!--<p>Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor onze Opententendag. Een dag voor jong en oud, boordevol activiteiten op het kampterrein. Geniet van de zomer samen met 500 binnen- en buitenlandse scouts van optredens, activiteiten en spelletjes. Ook voorzien we de mogelijkheid om te genieten van een heerlijke barbecue. </p>-->
+            <!--</div>-->
+
+            <!--<div class="shopping-cart">-->
+                <!--<div class="cart-item">-->
+                    <!--<div class="cart-description col-5">-->
+                        <!--<span>BBQ Volwassene (3 stukken vlees)</span>-->
+                    <!--</div>-->
+                    <!--<div class="cart-item-price col-2" >€18.00</div>-->
+                    <!--<div class="cart-quantity col-3">-->
+                        <!--<div class="number">-->
+                            <!--<button class=" minus-btn cart-btn" type="button" onclick="decrement_input('cart-count-18')">-->
+                                <!--<i class="fas fa-minus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                            <!--<input type="number" class=" cart-count" id="cart-count-18" name="cart-count-18" value="0" onchange="update_total()"/>-->
+                            <!--<button class=" plus-btn cart-btn" type="button" name="button" onclick="increment_input('cart-count-18')">-->
+                                <!--<i class="fas fa-plus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="cart-item">-->
+                    <!--<div class="cart-description col-5" >-->
+                        <!--<span>BBQ Kind (2 stukken vlees)</span>-->
+                    <!--</div>-->
+                    <!--<div class="cart-item-price col-2">€14.00</div>-->
+                    <!--<div class="cart-quantity col-3">-->
+                        <!--<div class="number">-->
+                            <!--<button  class=" cart-btn" onclick="decrement_input('cart-count-14')" >-->
+                                <!--<i class="fas fa-minus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                            <!--<input type="number" class="cart-count" id="cart-count-14" name="input" value="0"/>-->
+                            <!--<button  class=" cart-btn" onclick="increment_input('cart-count-14')" >-->
+                                <!--<i class="fas fa-plus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+                <!--<div class="cart-item">-->
+                    <!--<div class="cart-description col-5">-->
+                        <!--<span>Veggie Volwassene (Halloumi)</span>-->
+                    <!--</div>-->
+                    <!--<div class="cart-item-price col-2">€18.00</div>-->
+                    <!--<div class="cart-quantity col-3">-->
+                        <!--<div class="number">-->
+                            <!--<button  class=" cart-btn" onclick="decrement_input('cart-count-veggie-18')" >-->
+                                <!--<i class="fas fa-minus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                            <!--<input type="number" class="cart-count" id="cart-count-veggie-18" name="input" value="0"/>-->
+                            <!--<button  class=" cart-btn" onclick="increment_input('cart-count-veggie-18')">-->
+                                <!--<i class="fas fa-plus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="cart-item">-->
+                    <!--<div class="cart-description col-5">-->
+                        <!--<span>Veggie Kind (Halloumi)</span>-->
+                    <!--</div>-->
+                    <!--<div class="cart-item-price col-2">€14.00</div>-->
+                    <!--<div class="cart-quantity col-3">-->
+                        <!--<div class="number">-->
+                            <!--<button  class=" cart-btn" onclick="decrement_input('cart-count-veggie-14')" >-->
+                                <!--<i class="fas fa-minus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                            <!--<input type="number" class="cart-count" id="cart-count-veggie-14" name="input" value="0"/>-->
+                            <!--<button  class=" cart-btn" onclick="increment_input('cart-count-veggie-14')">-->
+                                <!--<i class="fas fa-plus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                <!--</div>-->
+                <!--<div class="modal-body payform-text">-->
+                    <!--<p>*Indien jullie zoon of docher deelneemt aan de jambo dienen jullie hiervoor geen portie te voorzien.</p>-->
+                <!--</div>-->
+                <!--<div class="transaction-footer row">-->
+                    <!--<div class="col-2 payform-text text-center">transactiekost</div>-->
+                    <!--<div class="col-2 payform-text" id="transaction-fee">€0.50</div>-->
+                <!--</div>-->
+                <!--<div class="cart-footer row">-->
+                    <!--<div class="cart-total-price col-2">TOTAAL</div>-->
+                    <!--<div class="cart-total-price col-2" id="cart-total">€0.50</div>-->
+                <!--</div>-->
+                <!--<div id="paypal-button-container"></div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+<!--<div class="modal fade" id="#CoronaModal" role="dialog">-->
+    <!--&lt;!&ndash; PAYMENT MODAL OPENTENTENDAG&ndash;&gt;-->
+    <!--<div class="modal-dialog modal-lg">-->
+        <!--<div class="modal-content payform">-->
+            <!--<div class="row modal-close" style="justify-content: flex-end">-->
+                <!--<button type="button" class="btn  cart-btn" data-dismiss="modal">-->
+                    <!--<i class="fas fa-times"></i>-->
+                <!--</button>-->
+            <!--</div>-->
+            <!--<div class="modal-body payform-text">-->
+                <!--<p>Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor onze Opententendag. Een dag voor jong en oud, boordevol activiteiten op het kampterrein. Geniet van de zomer samen met 500 binnen- en buitenlandse scouts van optredens, activiteiten en spelletjes. Ook voorzien we de mogelijkheid om te genieten van een heerlijke barbecue. </p>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<div id="CoronaModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body payform-text text-center">
+                <h4 style="font-family: 'Raleway', sans-serif;"><b>COVID-19 Update Jamborette 2020</b></h4>
+                <p> </p>
+                <p>Dear participants, citizens of Ninove and friends in scouting</p>
+                <p>Due to the COVID-19 pandemic, the global public health situation is developing rapidly on daily basis. Our Jamborette team is in close contact with the national autorities and local public institution to monitor the situation in Belgium and to measure all possibilities for our camp.</p>
+                <p>Our highest priority is the health, safety and well-being of all participants.</p>
+                <p>Our communication team is in close contact with all participating groups. Once again we would like to remind you that in case of any doubts, we are here to help you. As soon as we have any concrete information, we will publish our official communication on our website and facebook page. Our participants will ofcourse receive our official communications by mail as well.</p>
+                <p>We are keeping our fingers crossed and we hope you are all safe and sound.</p>
+                <p>Yours in scouting <br>
+                    Team Jamborette 2020
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
         </div>
-        <div class="toast-body">
-            Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor het publiek.
-            Schrijf je hier in om te genieten van een heerlijke barbecue op onze Opententendag.
-        </div>
-        <!--<button class="toast-button">Inschrijven</button>-->
-        <button type="button" class="btn btn-warning toast-button" data-toggle="modal" data-target="#StripeModal">Schrijf je nu in</button>
+
     </div>
 </div>
 
-<!-- PAYMENT MODAL OPENTENTENDAG-->
-<div class="modal fade" id="StripeModal" role="dialog">
-    <!-- PAYMENT MODAL OPENTENTENDAG-->
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content payform">
-            <img class="toast-icon" src="img/logos/utensils_black.png"/>
-            <div class="modal-body payform-text">
-                <p>Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor onze Opententendag. Een dag voor jong en oud, boordevol activiteiten op het kampterrein. Geniet van de zomer samen met 500 binnen- en buitenlandse scouts van optredens, activiteiten en spelletjes. Ook voorzien we de mogelijkheid om te genieten van een heerlijke barbecue. </p>
-            </div>
 
-            <div class="shopping-cart">
-                <div class="cart-item">
-                    <div class="cart-description col-7">
-                        <span>BBQ Volwassene (3 stukken vlees) aan €18</span>
-                    </div>
-
-                    <div class="cart-quantity col-3">
-                        <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input()">
-                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
-                            </button>
-                            <input type="number" class="cart-count" id="bbq-adult-amount" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input()">
-                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="cart-item-price col-2">€0.00</div>
-                </div>
-
-                <div class="cart-item">
-                    <div class="cart-description col-7" >
-                        <span>BBQ Kind (2 stukken vlees) aan €14     </span>
-                    </div>
-                    <div class="cart-quantity col-3">
-                        <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input()">
-                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
-                            </button>
-                            <input type="number" class="cart-count" id="bbq-kid-amount" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input()">
-                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="cart-item-price col-2">€0.00</div>
-                </div>
-
-                <div class="cart-item">
-                    <div class="cart-description col-7">
-                        <span>BBQ Veggie (Halloumi) aan €18     </span>
-                    </div>
-                    <div class="cart-quantity col-3">
-                        <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input()">
-                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
-                            </button>
-                            <input type="number" class="cart-count" id="bbq-veggie-amount" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input()">
-                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="cart-item-price col-2">€0.00</div>
-                </div>
-                <div class="cart-item">
-                    <div class="cart-description col-7">
-
-                    </div>
-                    <div class="cart-quantity col-3">
-
-                    </div>
-                    <div class="cart-total-price col-2">€0.00</div>
-                </div>
-                <div class="modal-body payform-text">
-                    <p>*Indien jullie zoon of docher deelneemt aan de jambo dienen jullie hiervoor geen portie te voorzien.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default cart-button">Betalen</button>
-                    <button type="button" class="btn btn-default cart-button" data-dismiss="modal" style="background-color: #cfd8dc">Sluiten</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
 <!-- MODALS -->
 <!-- Portfolio Modal 1 -->
@@ -1029,29 +1092,103 @@
 </div>
 <!-- Portfolio Modal 3 -->
 <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl"></div>
-                </div>
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content payform">
+            <div class="row modal-close" style="justify-content: flex-end">
+                <button type="button" class="btn  cart-btn" data-dismiss="modal">
+                    <i class="fas fa-times"></i>                </button>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h1>Jambo 2020</h1>
-                            <p class="page-description text-center lang" key="photo-2020">Here you'll find the first
-                                pictures of our jambo
-                                2020.
-                                <br>Soon!</p>
-                            <button class="btn btn-primary lang" key="close-gallery" data-dismiss="modal"
-                                    type="button"><i
-                                    class="fas fa-times"></i> Close gallery
+            <img class="toast-icon" src="img/logos/utensils_black.png"/>
+            <div class="modal-body payform-text">
+                <p>Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor onze Opententendag. Een dag voor jong en oud, boordevol activiteiten op het kampterrein. Geniet van de zomer samen met 500 binnen- en buitenlandse scouts van optredens, activiteiten en spelletjes. Ook voorzien we de mogelijkheid om te genieten van een heerlijke barbecue. </p>
+            </div>
+
+            <div class="shopping-cart">
+                <div class="cart-item">
+                    <div class="cart-description col-5">
+                        <span>BBQ Volwassene (3 stukken vlees)</span>
+                    </div>
+                    <div class="cart-item-price col-2" >€18.00</div>
+                    <div class="cart-quantity col-3">
+                        <div class="number">
+                            <button class=" minus-btn cart-btn" type="button" onclick="decrement_input('cart-count-18')">
+                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
+                            </button>
+                            <input type="number" class=" cart-count" id="cart-count-18" name="cart-count-18" value="0" onchange="update_total()"/>
+                            <button class=" plus-btn cart-btn" type="button" name="button" onclick="increment_input('cart-count-18')">
+                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-description col-5" >
+                        <span>BBQ Kind (2 stukken vlees)</span>
+                    </div>
+                    <div class="cart-item-price col-2">€14.00</div>
+                    <div class="cart-quantity col-3">
+                        <div class="number">
+                            <button  class=" cart-btn" onclick="decrement_input('cart-count-14')" >
+                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
+                            </button>
+                            <input type="number" class="cart-count" id="cart-count-14" name="input" value="0"/>
+                            <button  class=" cart-btn" onclick="increment_input('cart-count-14')" >
+                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
                             </button>
                         </div>
                     </div>
+
+                </div>
+                <div class="cart-item">
+                    <div class="cart-description col-5">
+                        <span>Veggie Volwassene (Halloumi)</span>
+                    </div>
+                    <div class="cart-item-price col-2">€18.00</div>
+                    <div class="cart-quantity col-3">
+                        <div class="number">
+                            <button  class=" cart-btn" onclick="decrement_input('cart-count-veggie-18')" >
+                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
+                            </button>
+                            <input type="number" class="cart-count" id="cart-count-veggie-18" name="input" value="0"/>
+                            <button  class=" cart-btn" onclick="increment_input('cart-count-veggie-18')">
+                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-description col-5">
+                        <span>Veggie Kind (Halloumi)</span>
+                    </div>
+                    <div class="cart-item-price col-2">€14.00</div>
+                    <div class="cart-quantity col-3">
+                        <div class="number">
+                            <button  class=" cart-btn" onclick="decrement_input('cart-count-veggie-14')" >
+                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
+                            </button>
+                            <input type="number" class="cart-count" id="cart-count-veggie-14" name="input" value="0"/>
+                            <button  class=" cart-btn" onclick="increment_input('cart-count-veggie-14')">
+                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-body payform-text">
+                    <p>*Indien jullie zoon of docher deelneemt aan de jambo dienen jullie hiervoor geen portie te voorzien.</p>
+                </div>
+                <div class="transaction-footer row">
+                    <div class="col-2 payform-text text-center">transactiekost</div>
+                    <div class="col-2 payform-text" id="transaction-fee">€0.50</div>
+                </div>
+                <div class="cart-footer row">
+                    <div class="cart-total-price col-2">TOTAAL</div>
+                    <div class="cart-total-price col-2" id="cart-total">€0.50</div>
+                </div>
+                <div class="cart-footer row">
+                    <div class="cart-total-price col-2"><button type="button" class="btn btn-default cart-button" onclick="pay()">Betalen</button></div>
+                    <div class="cart-total-price col-2"> <button type="button" class="btn btn-default cart-button" data-dismiss="modal" style="background-color: #cfd8dc">Sluiten</button></div>
                 </div>
             </div>
         </div>
@@ -1061,8 +1198,6 @@
 <!-- SCRIPTS -->
 <scripts>
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -1092,7 +1227,6 @@
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <script type="text/javascript" src="js/flipclock.js"></script>
     <script src="https://js.stripe.com/v3/"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </scripts>

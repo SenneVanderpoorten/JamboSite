@@ -41,111 +41,141 @@
 </head>
 <body>
 
-<!-- PAYMENT MODAL OPENTENTENDAG-->
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content payform">
-            <img class="toast-icon" src="img/logos/utensils_black.png"/>
-            <div class="modal-body payform-text">
-                <p>Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor onze Opententendag. Een dag voor jong en oud, boordevol activiteiten op het kampterrein. Geniet van de zomer samen met 500 binnen- en buitenlandse scouts van optredens, activiteiten en spelletjes. Ook voorzien we de mogelijkheid om te genieten van een heerlijke barbecue. </p>
-            </div>
+ <!--&lt;!&ndash;PAYMENT MODAL OPENTENTENDAG&ndash;&gt;-->
+<!--<div class="modal-dialog modal-lg">-->
+        <!--<div class="modal-content payform">-->
+            <!--<div class="row modal-close" style="justify-content: flex-end">-->
+                <!--<button type="button" class="btn  cart-btn" data-dismiss="modal">-->
+                    <!--<i class="fas fa-times"></i>-->
+                <!--</button>-->
+            <!--</div>-->
+            <!--<img class="toast-icon" src="img/logos/utensils_black.png"/>-->
+            <!--<div class="modal-body payform-text">-->
+                <!--<p>Op 25 juli 2020 openen we de poorten van Jamborette 2020 voor onze Opententendag. Een dag voor jong en oud, boordevol activiteiten op het kampterrein. Geniet van de zomer samen met 500 binnen- en buitenlandse scouts van optredens, activiteiten en spelletjes. Ook voorzien we de mogelijkheid om te genieten van een heerlijke barbecue. </p>-->
+            <!--</div>-->
 
-            <div class="shopping-cart">
-                <div class="cart-item">
-                    <div class="cart-description col-5">
-                        <span>BBQ Volwassene (3 stukken vlees)</span>
-                    </div>
-                    <div class="cart-item-price col-2" >€18.00</div>
-                    <div class="cart-quantity col-3">
-                        <div class="number">
-                            <button class=" minus-btn cart-btn" type="button" onclick="decrement_input('cart-count-18')">
-                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
-                            </button>
-                            <input type="number" class=" cart-count" id="cart-count-18" name="cart-count-18" value="0" onchange="update_total()"/>
-                            <button class=" plus-btn cart-btn" type="button" name="button" onclick="increment_input('cart-count-18')">
-                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
-                            </button>-
+            <!--<div class="shopping-cart">-->
+                <!--<div class="cart-item">-->
+                    <!--<div class="cart-description col-5">-->
+                        <!--<span>BBQ Volwassene (3 stukken vlees)</span>-->
+                    <!--</div>-->
+                    <!--<div class="cart-item-price col-2" >€18.00</div>-->
+                    <!--<div class="cart-quantity col-3">-->
+                        <!--<div class="number">-->
+                            <!--<button class=" minus-btn cart-btn" type="button" onclick="decrement_input('cart-count-18')">-->
+                                <!--<i class="fas fa-minus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                            <!--<input type="number" class=" cart-count" id="cart-count-18" name="cart-count-18" value="0" onchange="update_total()"/>-->
+                            <!--<button class=" plus-btn cart-btn" type="button" name="button" onclick="increment_input('cart-count-18')">-->
+                                <!--<i class="fas fa-plus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
 
-                        </div>
-                    </div>
-                </div>
-                <div class="cart-item">
-                    <div class="cart-description col-5" >
-                        <span>BBQ Kind (2 stukken vlees)</span>
-                    </div>
-                    <div class="cart-item-price col-2">€14.00</div>
-                    <div class="cart-quantity col-3">
-                        <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input('cart-count-14')" >
-                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
-                            </button>
-                            <input type="number" class="cart-count" id="cart-count-14" name="input" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input('cart-count-14')" >
-                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
-                            </button>
-                        </div>
-                    </div>
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="cart-item">-->
+                    <!--<div class="cart-description col-5" >-->
+                        <!--<span>BBQ Kind (2 stukken vlees)</span>-->
+                    <!--</div>-->
+                    <!--<div class="cart-item-price col-2">€14.00</div>-->
+                    <!--<div class="cart-quantity col-3">-->
+                        <!--<div class="number">-->
+                            <!--<button  class=" cart-btn" onclick="decrement_input('cart-count-14')" >-->
+                                <!--<i class="fas fa-minus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                            <!--<input type="number" class="cart-count" id="cart-count-14" name="input" value="0"/>-->
+                            <!--<button  class=" cart-btn" onclick="increment_input('cart-count-14')" >-->
+                                <!--<i class="fas fa-plus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
-                </div>
-                <div class="cart-item">
-                    <div class="cart-description col-5">
-                        <span>Veggie Volwassene (Halloumi)</span>
-                    </div>
-                    <div class="cart-item-price col-2">€18.00</div>
-                    <div class="cart-quantity col-3">
-                        <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input('cart-count-veggie-18')" >
-                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
-                            </button>
-                            <input type="number" class="cart-count" id="cart-count-veggie-18" name="input" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input('cart-count-veggie-18')">
-                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="cart-item">
-                    <div class="cart-description col-5">
-                        <span>Veggie Kind (Halloumi)</span>
-                    </div>
-                    <div class="cart-item-price col-2">€14.00</div>
-                    <div class="cart-quantity col-3">
-                        <div class="number">
-                            <button id="minus-btn" class=" cart-btn" onclick="decrement_input('cart-count-veggie-14')" >
-                                <i class="fas fa-minus-square cart-icon fa-lg"></i>
-                            </button>
-                            <input type="number" class="cart-count" id="cart-count-veggie-14" name="input" value="0"/>
-                            <button id="plus-btn" class=" cart-btn" onclick="increment_input('cart-count-veggie-14')">
-                                <i class="fas fa-plus-square cart-icon fa-lg"></i>
-                            </button>
-                        </div>
-                    </div>
+                <!--</div>-->
+                <!--<div class="cart-item">-->
+                    <!--<div class="cart-description col-5">-->
+                        <!--<span>Veggie Volwassene (Halloumi)</span>-->
+                    <!--</div>-->
+                    <!--<div class="cart-item-price col-2">€18.00</div>-->
+                    <!--<div class="cart-quantity col-3">-->
+                        <!--<div class="number">-->
+                            <!--<button  class=" cart-btn" onclick="decrement_input('cart-count-veggie-18')" >-->
+                                <!--<i class="fas fa-minus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                            <!--<input type="number" class="cart-count" id="cart-count-veggie-18" name="input" value="0"/>-->
+                            <!--<button  class=" cart-btn" onclick="increment_input('cart-count-veggie-18')">-->
+                                <!--<i class="fas fa-plus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="cart-item">-->
+                    <!--<div class="cart-description col-5">-->
+                        <!--<span>Veggie Kind (Halloumi)</span>-->
+                    <!--</div>-->
+                    <!--<div class="cart-item-price col-2">€14.00</div>-->
+                    <!--<div class="cart-quantity col-3">-->
+                        <!--<div class="number">-->
+                            <!--<button  class=" cart-btn" onclick="decrement_input('cart-count-veggie-14')" >-->
+                                <!--<i class="fas fa-minus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                            <!--<input type="number" class="cart-count" id="cart-count-veggie-14" name="input" value="0"/>-->
+                            <!--<button  class=" cart-btn" onclick="increment_input('cart-count-veggie-14')">-->
+                                <!--<i class="fas fa-plus-square cart-icon fa-lg"></i>-->
+                            <!--</button>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
-                </div>
-            <div class="modal-body payform-text">
-                <p>*Indien jullie zoon of docher deelneemt aan de jambo dienen jullie hiervoor geen portie te voorzien.</p>
-            </div>
-            <div class="container-fluid ">
-                <div class="transaction-footer row">
-                    <div class="col-2 payform-text text-center">transactiekosten</div>
-                    <div class="col-2 payform-text text-center" id="transaction-fee">€0.50</div>
-                    <div class="col-2"></div>
-                    <div class="col-2"></div>
-                </div>
-                <div class="cart-footer row">
-                    <div class="cart-total-price col-2">TOTAAL</div>
-                    <div class="cart-total-price col-2" id="cart-total">€0.50</div>
-                    <div class="cart-total-price col-2"><button type="button" class="btn btn-default cart-button">Betalen</button></div>
-                    <div class="cart-total-price col-2"> <button type="button" class="btn btn-default cart-button" data-dismiss="modal" style="background-color: #cfd8dc">Sluiten</button></div>
+                <!--</div>-->
+            <!--<div class="modal-body payform-text">-->
+                <!--<p>*Indien jullie zoon of docher deelneemt aan de jambo dienen jullie hiervoor geen portie te voorzien.</p>-->
+            <!--</div>-->
+                <!--<div class="transaction-footer row">-->
+                    <!--<div class="col-2 payform-text text-center">transactiekost</div>-->
+                    <!--<div class="col-2 payform-text" id="transaction-fee">€0.50</div>-->
+                <!--</div>-->
+                <!--<div class="cart-footer row">-->
+                    <!--<div class="cart-total-price col-2">TOTAAL</div>-->
+                    <!--<div class="cart-total-price col-2" id="cart-total">€0.50</div>-->
+                <!--</div>-->
+                <!--<div class="cart-footer row">-->
+                    <!--<div class="cart-total-price col-2"><button type="button" class="btn btn-default cart-button" onclick="pay()">Betalen</button></div>-->
+                    <!--<div class="cart-total-price col-2"> <button type="button" class="btn btn-default cart-button" data-dismiss="modal" style="background-color: #cfd8dc">Sluiten</button></div>-->
 
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+<!--</div>-->
 
-                </div>
-            </div>
-        </div>
-    </div>
+     <!-- PAYMENT MODAL OPENTENTENDAG-->
+ <div class="modal">
+ <div class="modal-dialog modal-lg">
+         <div class="modal-content payform">
+             <div class="row modal-close" style="justify-content: flex-end">
+                 <button type="button" class="btn  cart-btn" data-dismiss="modal">
+                     <i class="fas fa-times"></i>
+                 </button>
+             </div>
+             <div class="modal-body payform-text text-center">
+                 <h4 style="font-family: 'Raleway', sans-serif;"><b>COVID-19 Update Jamborette 2020</b></h4>
+                 <p> </p>
+                 <p>Dear participants, citizens of Ninove and friends in scouting</p>
+                 <p>Due to the COVID-19 pandemic, the global public health situation is developing rapidly on daily basis. Our Jamborette team is in close contact with the national autorities and local public institution to monitor the situation in Belgium and to measure all possibilities for our camp.</p>
+                 <p>Our highest priority is the health, safety and well-being of all participants.</p>
+                 <p>Our communication team is in close contact with all participating groups. Once again we would like to remind you that in case of any doubts, we are here to help you. As soon as we have any concrete information, we will publish our official communication on our website and facebook page. Our participants will ofcourse receive our official communications by mail as well.</p>
+                 <p>We are keeping our fingers crossed and we hope you are all safe and sound.</p>
+                 <p>Yours in scouting <br>
+                     Team Jamborette 2020
+                 </p>
+             </div>
+         </div>
+     </div>
+ </div>
+
 
 
 <!-- SCRIPTS -->
 <scripts>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
