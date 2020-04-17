@@ -1184,6 +1184,7 @@ input[type=number] {
     color: #0e1122;
 }
 
+
 .cart-count {
     color: #000;
     border: 0;
@@ -1226,4 +1227,8 @@ input[type=number] {
 .modal-close{
     flex-direction: row;
     width: 100%;
+}
+
+.background-modal{
+    background: #0E1122;
 }
