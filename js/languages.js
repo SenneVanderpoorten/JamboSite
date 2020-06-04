@@ -33,7 +33,7 @@ const languages = {
         'timeline-4': 'In 2020, Scouting in Ninove will celebrate its 100th anniversary. This is the perfect occasion for us to organize a third edition of our Jamborette. Because our centenary really is something special and calls for a good party, this time it will be a festive edition focused on celebrating holidays. We hope to welcome you all as a participant or visitor of the ‘open tent day’ on July 25th 2020.',
         //INFORMATION
         'when': 'When?',
-        'when-sub': 'The Jamborette takes place from Saturday the 18th until Tuesday the 28th of July 2020.',
+        'when-sub': 'The Jamborette takes place from Monday the 19th until Thursday the 29th of July 2021.',
         'what': 'What?',
         'what-sub': 'You will not be bored out during this camp! We have provided various activities such as games, shows, a big dinner etc. Also we will arrange visits to some of Belgium’s most beautiful cities.',
         'where': 'Where?',
@@ -45,12 +45,12 @@ const languages = {
         'antwerpen': 'Antwerp (70 km)',
         'cities-sub': 'Our city lies on the banks of the Dender. This river arises in Aalst and ends after 65 km in the Scheldt in Dendermonde.',
         'who': 'Who?',
-        'who-sub': 'The Jamborette is meant for boys and girls from the age of 14 (born in 2006 and later) until 18, accompanied by their leaders of course.',
+        'who-sub': 'The Jamborette is meant for boys and girls from the age of 14 (born in 2007 and later) until 18, accompanied by their leaders of course.',
         //ACTIVITIES
         'activities-sub': 'A small overview of some of the many awesome activities that will take place during the Jamborette.',
         'timeline': 'img/timeline/timeline-en.png',
         //ORGANISATION
-        'organisation-sub': 'In this section, you can find the different committees and their heads, who work together with only one objective: making Jamborette 2020 an unforgettable experience!\n' +
+        'organisation-sub': 'In this section, you can find the different committees and their heads, who work together with only one objective: making Jamborette 2021 an unforgettable experience!\n' +
             'Questions? Interested? We are only one mail away!\n',
         'program': 'Program',
         'logistics': 'Logistics',
@@ -72,12 +72,12 @@ const languages = {
             'finding pictures is not as easy as we thought it would be. \n' +
             'But remember, a scout never gives up!\n',
         'photo-2010': '',
-        'photo-2020': 'Here you\'ll find the first pictures of our jambo 2020. \n' +
+        'photo-2020': 'Here you\'ll find the first pictures of our jambo 2021. \n' +
             'Soon!\n',
         'close-gallery': 'Close Gallery',
         //NEWSFEED
         'newsfeed-sub': 'Stay tuned with the latest updates concerning our event.\n',
-        'paper': 'Jamborette 2020 in the newspaper',
+        'paper': 'Jamborette 2021 in the newspaper',
         'who-coming': 'Who\'s coming?',
         //CONTACT
         'contact-us': 'CONTACT US',
@@ -110,7 +110,7 @@ const languages = {
         'timeline-4': '2020 feiert Scouting in Ninove den 100. Jahrestag. Dies ist die perfekte Gelegenheit für und, eine dritte Edition unseres Jamborette zu organisieren. Da unser Jubiläum wirklich etwas Besonderes ist und nach einer Party verlangt, wird es diesmal eine festliche Veranstaltung sein, bei der die Feiertage im Mittelpunkt stehen. Wir hoffen, euch alle als Teilnehmer oder Besucher zum „Tag des offenen Zelts“ am 25. Juli 2020 begrüßen zu dürfen.',
         //INFORMATION
         'when': 'Wann?',
-        'when-sub': 'Das Jamborette findet von Samstag, den 18. Juli 2020 bis Dienstag den 28. Juli 2020 statt.',
+        'when-sub': 'Das Jamborette findet von Montag, den 19. Juli 2021 bis Donnerstag den 29. Juli 2021 statt.',
         'what': 'Was?',
         'what-sub': 'Ihr werdet euch während des Camps nicht langweilen. Wir werden verschiedene Aktivitäten wie Spiele, Shows, ein großes Abendessen etc. anbieten. Außerdem werden wir Besuche von einigen der schönsten Städte Belgiens organisieren.',
         'where': 'Wo?',
@@ -127,7 +127,7 @@ const languages = {
         'activities-sub': 'Ein kleines Übersicht von alle tolle Aktivitäten während das Jamborette.',
         'timeline': 'img/timeline/timeline-de.png',
         //ORGANISATION
-        'organisation-sub': 'In diese Sektion finden Sie die verschiedene Komitees und ihr Haupt, Sie arbeiten zusammen mit nur ein ziel: Jamborette 2020 ein unvergeßliche Erfahrung!\n Fragen? Interessiert? Wir sind nur eine Email entfernt!\n',
+        'organisation-sub': 'In diese Sektion finden Sie die verschiedene Komitees und ihr Haupt, Sie arbeiten zusammen mit nur ein ziel: Jamborette 2021 ein unvergeßliche Erfahrung!\n Fragen? Interessiert? Wir sind nur eine Email entfernt!\n',
         'communication': 'Kommunikation',
         'program': 'Programm',
         'logistics': 'Logistik',
@@ -151,7 +151,7 @@ const languages = {
         'close-gallery': 'Galerie schließen',
         //NEWSFEED
         'newsfeed-sub': 'Bleiben Sie dran mit die neuesten Entwicklungen.\n',
-        'paper': 'Jamborette 2020 in die Zeitung.',
+        'paper': 'Jamborette 2021 in die Zeitung.',
         'who-coming': 'Wer kommt?',
         //CONTACT
         'contact-us': 'KONTAKTIERE UNS',
@@ -184,7 +184,7 @@ const languages = {
         'timeline-4': 'En 2020, Los scouts y guías de Ninove celebrarán su centenario. Esto claramente es la ocasión perfecta para organizar una tercera edición de nuestra Jamborette. Debido a que nuestro centenario realmente es algo especial y requiere una gran fiesta, esta vez será una edición festiva centrada en la celebración de los días festivos. Esperamos darle la bienvenida como participante, o como visitante del "día de la carpa abierta" que tendrá lugar el 25 de julio de 2020.',
         //INFORMATION
         'when': '¿Cuándo?',
-        'when-sub': 'La Jamborette tendrá lugar del sábado 18 al martes 28 de julio de 2020.',
+        'when-sub': 'La Jamborette tendrá lugar del lunes 19 al jueves 29 de julio de 2021.',
         'what': '¿Qué?',
         'what-sub': '¡No te aburrirás durante este campamento! Hemos brindado diversas actividades como juegos, espectáculos, una gran cena multicultural, etc. También organizaremos visitas a algunas de las ciudades más hermosas de Bélgica.',
         'where': '¿Donde?',
@@ -196,12 +196,12 @@ const languages = {
         'antwerpen': 'Amberes (70 km)',
         'cities-sub': 'Nuestra ciudad se encuentra a orillas del rió Dender. Este río surge en Aat y termina 65 km más lejos en el río Scheldt en Dendermonde.',
         'who': '¿Para quién?',
-        'who-sub': 'La Jamborette está destinada a niños y niñas de 14 años (nacidos en 2006 y posteriores) a 18 años acompañados por sus líderes, por supuesto.',
+        'who-sub': 'La Jamborette está destinada a niños y niñas de 14 años (nacidos en 2007 y posteriores) a 18 años acompañados por sus líderes, por supuesto.',
         //ACTIVITIES
         'activities-sub': 'En lo que sigue, mencionamos unas de las muchas actividades increíbles que tendrán lugar durante la Jamborette.',
         'timeline': 'img/timeline/timeline-es.png',
         //ORGANISATION
-        'organisation-sub': 'En esta sección, puedes encontrar los diferentes comités y sus jefes, que trabajan juntos con un solo objetivo: hacer de la Jamborette 2020 una experiencia inolvidable.\n' +
+        'organisation-sub': 'En esta sección, puedes encontrar los diferentes comités y sus jefes, que trabajan juntos con un solo objetivo: hacer de la Jamborette 2021 una experiencia inolvidable.\n' +
             ' \n' +
             '¿Preguntas? ¡Contáctanos!\n',
         'communication': 'Comunicación',
@@ -230,7 +230,7 @@ const languages = {
         'close-gallery': 'cierra la galeria',
         //NEWSFEED
         'newsfeed-sub': 'Estén atentos con las últimas actualizaciones sobre nuestro evento.',
-        'paper': 'Jamborette 2020 en el periódico',
+        'paper': 'Jamborette 2021 en el periódico',
         'who-coming': '¿Quién está viniendo?',
         //CONTACT
         'contact-us': 'Contacto',
@@ -272,9 +272,9 @@ const languages = {
         'timeline-4': 'En 2020, Scouting à Ninove va fêter leur centenaire. L’événement idéal pour organiser une troisième édition du  Jamborette. Un centenaire mérite d’être fêté d’une façon spéciale. Nous célébrons un mix de nos meilleures jours fériés. Nous espérons de vous accueillir ; comme participant ou visiteur de notre porte ouverte, le 25 Juillet 2020.',
         //INFORMATION
         'when': 'Quand ?',
-        'when-sub': 'Le Jamborette 2020 aura lieu du 18 au 28 juillet 2020 à Ninove. ',
+        'when-sub': 'Le Jamborette aura lieu du 19 au 29 juillet 2021 à Ninove. ',
         'what': 'Quoi ? ',
-        'what-sub': 'Il n’y a pas de place pour l’ennui pendant Jamborette 2020. Nous préparons beaucoup et diverses activités, par exemple : des jeux de groupe, des spectacles, un souper en groupe… \n' +
+        'what-sub': 'Il n’y a pas de place pour l’ennui pendant Jamborette 2021. Nous préparons beaucoup et diverses activités, par exemple : des jeux de groupe, des spectacles, un souper en groupe… \n' +
             'Nous planifions aussi des voyages aux plus belles villes de Belgique.',
         'where': 'Où ? ',
         'where-sub': 'La troisième édition du Jamborette aura lieu à Ninove : une ville accueillante au centre de Belgique. ',
@@ -285,7 +285,7 @@ const languages = {
         'antwerpen': 'Anvers (70 km) ',
         'cities-sub': 'Ninove se trouve au bord de la Dendre. La rivière prend sa source à Ath et se jette dans l’Escaut à Termonde.',
         'who': 'Pour qui ? ',
-        'who-sub': 'Le Jamborette s’adresse aux garçons et filles, à partir de 14 ans (né en 2006) au 18 ans et leurs chefs.',
+        'who-sub': 'Le Jamborette s’adresse aux garçons et filles, à partir de 14 ans (né en 2007) au 18 ans et leurs chefs.',
         //ACTIVITIES
         'activities-sub': 'Un petit aperçu de quelques-unes des nombreuses activités géniales qui auront lieu pendant le Jamborette.',
         'timeline': 'img/timeline/timeline-fr.png',
@@ -317,7 +317,7 @@ const languages = {
         'close-gallery': 'fermer la galerie',
         //NEWSFEED
         'newsfeed-sub': 'Restez à l\'affût des dernières mises à jour concernant notre événement.',
-        'paper': 'Jamborette 2020 dans le journal',
+        'paper': 'Jamborette 2021 dans le journal',
         'who-coming': 'Qui vient?',
         //CONTACT
         'contact-us': 'CONTACT',
@@ -350,11 +350,11 @@ const languages = {
         'timeline-4': 'Nel 2020 Scouts Ninove festeggia la sua centenaria esistenza, in una parola: l’occasione perfetta per organizzare una terza edizione. Quindi abbiamo avuto l’idea per festeggiare questa svolta nella nostra storia con un campo mondiale (Jamborette). Quest’anno il tema è ‘giorni festivi’. Ogni giorno il terreno verrà decorato in un giorno festivo, per es. San Valentino o il carnevale di Ninove. Inoltre vogliamo invitare, i cittadini di Ninove alla nostra giornata di visita che ha luogo il 25 luglio 2020.',
         //INFORMATION
         'when': 'Quando?',
-        'when-sub': 'Jamborette 2020 aver luogo da 18 a 28 luglio 2020.',
+        'when-sub': 'Jamborette 2021 aver luogo da 19 a 29 luglio 2021.',
         'what': 'Che?',
         'what-sub': 'Jamborette non è un campo normale. I partecipanti non avranno tempo per annoiarsi. Questi dieci giorni sono riempiti da tante attività moderne ma con rispetto per le leggi vecchi del Scautismo. Grandi giochi con tutti i partecipanti, una cena gigantesca con centinaia esploratori ed esploratrici, una cerimonia di apertura e chiusura. Vogliamo presentarvi con tutto quello che Ninove e Belgio può offrire. Lo facciamo anche tramite gite alle più belle città di Belgio!',
         'where': 'Dove?',
-        'where-sub': 'Per la terza edizione del nostro campo mondiale (Jamborette 2020), abbiamo trovato una locazione bellissima vicino al centro di Ninove. Ninove è una città pittoresca accanto alle rive della Dendre/Dender.',
+        'where-sub': 'Per la terza edizione del nostro campo mondiale (Jamborette 2021), abbiamo trovato una locazione bellissima vicino al centro di Ninove. Ninove è una città pittoresca accanto alle rive della Dendre/Dender.',
         'ninove': 'Ninove è vicino a qualche città bellissima ed interessante:',
         'aalst': 'Aalst (15 km)',
         'gent': 'Ghent (35 km)',
@@ -362,7 +362,7 @@ const languages = {
         'antwerpen': 'Anversa (70 km)',
         'cities-sub': '',
         'who': 'Chi?',
-        'who-sub': 'Jamborette 2020 organizza un campo per esploratori ed esploratrici da quattordici anni a diciotto anni, accompagnato dai loro capi (ovviamente).',
+        'who-sub': 'Jamborette 2021 organizza un campo per esploratori ed esploratrici da quattordici anni a diciotto anni, accompagnato dai loro capi (ovviamente).',
         //ACTIVITIES
         'activities-sub': 'Qui si trova qualche esempio di attività che succederanno durante il Jamborette.',
         'timeline': 'img/timeline/timeline-it.png',
@@ -391,7 +391,7 @@ const languages = {
         'close-gallery': 'Chiudi la galleria',
         //NEWSFEED
         'newsfeed-sub': 'Qui si trova le notizie del nostro evento.',
-        'paper': 'Jamborette 2020 nel giornale',
+        'paper': 'Jamborette 2021 nel giornale',
         'who-coming': 'Chi viene all’evento?',
         //CONTACT
         'contact-us': 'CONTATTACI',
@@ -424,11 +424,11 @@ const languages = {
         'timeline-4': 'In 2020 zullen de scouts van Ninove hun honderdjarig bestaan vieren, met andere woorden: de perfecte gelegenheid om dit feest groots aan te pakken en een derde Jamborette te organiseren. Een honderdjarig bestaan betekent ‘Feest’, dus hoe kunnen we deze speciale mijlpaal in de (Ninoofse) scoutsgeschiedenis beter vieren dan het organiseren van een wereldkamp met als thema ‘Feestdagen’. Iedere dag wordt het kampterrein dan ook omgetoverd in het decor van een specifieke feestdag, van Valentijn tot het échte Ninoofse carnaval, alles komt aan bod. Verder willen we jullie, als bezoeker, Nienovieter of sympathisant, alvast uitnodigen op onze Opententendag die plaatsvindt op 25 juli 2020.',
         //INFORMATION
         'when': 'Wanneer?',
-        'when-sub': 'Jamborette 2020 zal doorgaan van zaterdag 18 tot dinsdag 28 juli 2020.',
+        'when-sub': 'Jamborette 2021 zal doorgaan van zaterdag 19 tot dinsdag 29 juli 2021.',
         'what': 'Wat?',
         'what-sub': 'Jamborette is niet zomaar een kamp. De deelnemers zullen alvast geen tijd hebben om zich te vervelen tijdens onze tiendaagse. We vullen deze tien dagen met een hele waaier aan activiteiten, met een moderne toets, maar steeds met respect voor de aloude scoutswetten. Grote spelen met alle deelnemers, een gigantisch diner met honderden scouts, een heuse openings- en slotshow; we laten niets aan het toeval over en entertainen onze buitenlandse gasten met het beste van Ninove én België. Verder laten we onze deelnemers kennismaken met het mooiste wat ons land te bieden heeft door uitstappen naar de mooiste Belgische steden!',
         'where': 'Waar?',
-        'where-sub': 'Voor de derde editie van ons wereldkamp, Jamborette 2020, vonden we een prachtige locatie vlakbij  het centrum van onze gezellige thuishaven, Ninove. Een provinciestad met karakter, langs de oevers van de Dender. ',
+        'where-sub': 'Voor de derde editie van ons wereldkamp, Jamborette 2021, vonden we een prachtige locatie vlakbij  het centrum van onze gezellige thuishaven, Ninove. Een provinciestad met karakter, langs de oevers van de Dender. ',
         'ninove': 'Ninove is erg centraal gelegen;  in de buurt van enkele interessante en mooie steden:',
         'aalst': 'Aalst (15km)',
         'gent': 'Gent (35 km)',
@@ -436,12 +436,12 @@ const languages = {
         'antwerpen': 'Antwerpen (70 km)',
         'cities-sub': '',
         'who': 'Wie?',
-        'who-sub': 'Jamborette 2020 verwelkomt graag jongens en meisjes van 14 tot 18 jaar oud, uiteraard vergezeld door hun leiders.',
+        'who-sub': 'Jamborette 2021 verwelkomt graag jongens en meisjes van 14 tot 18 jaar oud, uiteraard vergezeld door hun leiders.',
         //ACTIVITIES
         'activities-sub': 'Een kort overzicht van enkele van de activiteiten die van deze Jamborette een unieke ervaring zullen maken.',
         'timeline': 'img/timeline/timeline-nl.png',
         //ORGANISATION
-        'organisation-sub': 'Hier kan u het ambitieuze team vinden dat zijn schouders onder het grootste Jamborette 2020-project zet. We zijn steeds bereikbaar voor al uw vragen!',
+        'organisation-sub': 'Hier kan u het ambitieuze team vinden dat zijn schouders onder het grootste Jamborette 2021-project zet. We zijn steeds bereikbaar voor al uw vragen!',
         'communication': 'Communicatie',
         'program': 'Programma',
         'logistics': 'Logistiek',
@@ -461,11 +461,11 @@ const languages = {
         'pictures': "Foto's",
         'photo-1994': 'Aangezien 1994 al even geleden is, is het niet zo eenvoudig als gedacht om digitale afbeeldingen te vinden. Maar een echt scout geeft nooit op!',
         'photo-2010': '',
-        'photo-2020': 'Binnenkort kunt u hier de eerste foto’s van de jambo 2020 vinden!',
+        'photo-2020': 'Binnenkort kunt u hier de eerste foto’s van de Jambo 2021 vinden!',
         'close-gallery': 'Gallerij sluiten',
         //NEWSFEED
         'newsfeed-sub': 'Volg alle laatste ontwikkelingen in verband met ons evenement.\n',
-        'paper': 'Jamborette 2020 in de krant',
+        'paper': 'Jamborette 2021 in de krant',
         'who-coming': 'Wie komt er al?',
         //CONTACT
         'contact-us': 'Contacteer ons',

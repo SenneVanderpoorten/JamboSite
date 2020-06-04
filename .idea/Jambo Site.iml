@@ -29,5 +29,13 @@
     <orderEntry type="library" name="dark" level="application" />
     <orderEntry type="library" name="jquery-3.4.1.slim" level="application" />
     <orderEntry type="library" name="jquery-1.11.1" level="application" />
+    <orderEntry type="library" name="popper.js" level="application" />
+    <orderEntry type="library" name="platform" level="application" />
+    <orderEntry type="library" name="dark" level="application" />
+    <orderEntry type="library" name="baguettebox.js" level="application" />
+    <orderEntry type="library" name="worldHigh" level="application" />
+    <orderEntry type="library" name="ammap" level="application" />
+    <orderEntry type="library" name="api" level="application" />
+    <orderEntry type="library" name="jquery-1.11.1" level="application" />
   </component>
 </module>

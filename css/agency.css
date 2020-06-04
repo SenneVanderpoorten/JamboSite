@@ -939,6 +939,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     background: #333;
 }
 
+.collapse.in {
+    display: block !important;
+}
+
 .panel-title {
     margin-bottom: auto;
     font-family: inherit;

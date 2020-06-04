@@ -11,7 +11,7 @@ $(document).ready(function displayFAQ() {
             res += "<div class='panel-title'>";
             res += "<a  role='button' data-toggle='collapse' data-parent='#accordion' class='collapsed' href= '#faq" + value["index"] + "'>";
             res += "<span>" + value["q"] + "</span></a></div></div>";
-            res += "<div id='faq" + value["index"] + "' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='headingOne'>";
+            res += "<div id='faq" + value["index"] + "' class='panel-collapse collapse in' role='tabpanel' aria-labelledby='headingOne' data-parent='#accordion'>";
             res += "<div class=' panel-body'>" + value["a"] + "</div></div></div>";
         });
         res += "</div>";

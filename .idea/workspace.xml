@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Jambo Site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Jambo Site.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/flipclock.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/flipclock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/languages.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +27,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>modal-footer</find>
-      <find>jquery</find>
-      <find>console</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -39,12 +38,6 @@
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-35" />
-    <option name="y" value="230" />
-    <option name="width" value="1920" />
-    <option name="height" value="1030" />
   </component>
   <component name="ProjectId" id="1RKfgT2LxibSbVp0yR1LKibXuJw" />
   <component name="ProjectLevelVcsManager">
@@ -184,7 +177,11 @@
       <workItem from="1586172269630" duration="1237000" />
       <workItem from="1586384905389" duration="27000" />
       <workItem from="1586394208192" duration="30000" />
-      <workItem from="1587106396824" duration="1311000" />
+      <workItem from="1587106396824" duration="1910000" />
+      <workItem from="1588800532567" duration="24000" />
+      <workItem from="1591001476726" duration="6408000" />
+      <workItem from="1591126492640" duration="55000" />
+      <workItem from="1591254143821" duration="832000" />
     </task>
     <servers />
   </component>
@@ -225,5 +222,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591254670087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/5.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591254670087" />
   </component>
 </project>
