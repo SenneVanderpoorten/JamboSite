@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5a9eb9-893d-4bf1-b749-852f2eb70555" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Jambo Site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Jambo Site.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/agency.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/background/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/background/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/faq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/flipclock.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/flipclock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/languages.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/languages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -181,7 +176,9 @@
       <workItem from="1588800532567" duration="24000" />
       <workItem from="1591001476726" duration="6408000" />
       <workItem from="1591126492640" duration="55000" />
-      <workItem from="1591254143821" duration="832000" />
+      <workItem from="1591254143821" duration="1402000" />
+      <workItem from="1592116524483" duration="868000" />
+      <workItem from="1592144543689" duration="400000" />
     </task>
     <servers />
   </component>
